@@ -385,3 +385,49 @@ body {
     opacity: 0.9;
     visibility: visible;
 }
+
+.header-logo {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%, 0);
+}
+
+.header-logo img {
+    width: 180px
+}
+
+.header-width {
+    min-height: 700px;
+    background-color: rgb(247, 252, 255);
+    border-radius: 0 0 50% 50% / 0 0 85% 85%;
+}
+
+
+/***
+  -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin-top: 0;
+    z-index: 11;
+    width: 14em;
+    height: 4.5em;
+    */
+
+.header-left-ui {
+    position: absolute;
+    left: 200px
+}
+
+.header-right-ui {
+    position: absolute;
+    right: 110px;
+}
+
+.nav-style {
+    padding-top: 50px;
+    margin-bottom: 110px
+}
+
+.nav li {
+    color: black
+}
