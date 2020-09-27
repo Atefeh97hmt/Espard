@@ -454,20 +454,13 @@ body {
 
 .form-button {
     position: absolute;
-    right: 448px;
+    right: 425px;
     color: white;
-    background-color: blue
+    background-color: lightgreen
 }
 
 .form-part-style {
     margin-top: 20px
-}
-
-.x {
-    border: 2px solid rebeccapurple;
-    width: 200px;
-    height: 50px;
-    margin: 3px
 }
 
 .bbb ul {
@@ -499,7 +492,7 @@ body {
     margin-bottom: 12px;
 }
 
-.mainservice_img {
+.menu_img {
     position: absolute;
     display: block;
     width: 30%;
@@ -515,22 +508,11 @@ body {
     z-index: 1;
 }
 
-.menuicons {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-
 .all-btn {
     border: 2px solid grey;
     border-radius: 5px;
-    padding: 2px
+    padding: 12px;
+    margin-left: 20px;
 }
 
 .dropdown-menu-width {
@@ -545,4 +527,6 @@ body {
     width: 450%
 }
 
-.header-right-div {}
+.x {
+    margin-top: 50px;
+}
