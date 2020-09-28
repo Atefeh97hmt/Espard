@@ -40,13 +40,13 @@ body {
     margin-bottom: 15px
 }
 
-.section__header {
+.section-header {
     margin-bottom: 60px;
     text-align: center;
     position: relative;
 }
 
-.section-services__item {
+.section-services-item {
     background-color: rgb(237, 248, 255);
     border-radius: 5px;
     color: rgb(51, 51, 51);
@@ -59,23 +59,23 @@ body {
     height: 150px
 }
 
-.section-services__item:hover {
+.section-services-item:hover {
     background-color: rgb(219, 240, 253)
 }
 
-.section-services__item-background-color:hover {
+.section-services-item-background-color:hover {
     background-color: rgb(237, 248, 255);
     color: rgb(46, 158, 239);
 }
 
-.section-services__image {
+.section-services-image {
     margin: 0 auto 12px;
     min-height: 60px;
     min-width: 60px;
     max-width: 120px;
 }
 
-.card-a__img {
+.card-a-img {
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -87,13 +87,13 @@ body {
     box-shadow: 12px 12px 30px rgba(0, 0, 0, .1);
 }
 
-.card-a__img img {
+.card-a-img img {
     width: 90px;
     text-align: center;
     margin-top: 30px;
 }
 
-.card-a__main {
+.card-a-main {
     display: inline-block;
     vertical-align: top;
     width: calc(100% - 150px);
@@ -108,12 +108,12 @@ body {
     font-size: 14px;
 }
 
-.card-a__title {
+.card-a-title {
     color: #333;
     margin-bottom: 5px;
 }
 
-.card-a__body {
+.card-a-body {
     color: #747474;
     text-align: justify;
 }
@@ -122,25 +122,17 @@ body {
     font-size: 0;
 }
 
-.section__img--svg {
-    height: 500px;
-}
-
-.section__img {
+.section-img {
     position: relative;
     display: block;
     width: 100%;
     margin: 0 auto;
 }
 
-.section__wrap {
+.section-wrap {
     padding: 80px 0;
     margin: 0 auto;
     width: 100%;
-}
-
-.col--middle {
-    vertical-align: middle;
 }
 
 .background3 {
@@ -164,7 +156,7 @@ body {
     text-align: center;
 }
 
-.btn--blue {
+.btn-blue {
     background-color: #239df0;
     border: 2px solid transparent;
     border-radius: 30px;
@@ -172,7 +164,7 @@ body {
     color: #fff;
 }
 
-.btn--blue:hover {
+.btn-blue:hover {
     background-color: rgb(67, 67, 69);
     color: white
 }
@@ -184,21 +176,21 @@ body {
     max-width: 300px;
 }
 
-.section__header__right {
+.section-header-right {
     text-align: right;
     margin-bottom: 30px;
 }
 
-.section__main__pro {
+.section-main-pro {
     color: #747474;
     text-align: justify;
 }
 
-.section_becomePro {
+.section-becomePro {
     padding-top: 80px
 }
 
-.btn--orange {
+.btn-orange {
     background-color: #fdc827;
     border: 2px solid transparent;
     color: #333;
@@ -206,12 +198,12 @@ body {
     width: 150px;
 }
 
-.btn--orange:hover {
+.btn-orange:hover {
     background-color: rgb(67, 67, 69);
     color: white
 }
 
-.section_title_black_pro {
+.section-title-black-pro {
     color: black;
     text-align: right;
 }
@@ -225,36 +217,36 @@ body {
     color: #666;
 }
 
-.footer__block-title {
+.footer-block-title {
     color: #239df0;
     margin-bottom: 9px;
     text-align: justify
 }
 
-.footer__block-body {
+.footer-block-body {
     text-align: justify;
 }
 
-.footer__block {
+.footer-block {
     text-align: center
 }
 
-.footer__block-body li {
+.footer-block-body li {
     list-style: none;
 }
 
-.footer__block-body ul {
+.footer-block-body ul {
     padding: 0px;
     line-height: 30px;
 }
 
-.footer__block-body a {
+.footer-block-body a {
     color: grey;
     font-size: 16px;
     text-decoration-line: none;
 }
 
-.footer__block-body a:hover {
+.footer-block-body a:hover {
     color: #239df0
 }
 
@@ -262,7 +254,7 @@ body {
     font-weight: bold
 }
 
-.footer__logo {
+.footer-logo {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -270,11 +262,11 @@ body {
     text-align: right
 }
 
-.logo__img {
+.logo-img {
     width: 150px;
 }
 
-.footer__block-body p {
+.footer-block-body p {
     text-align: justify;
     font-size: 14px;
     color: gray;
@@ -308,14 +300,14 @@ body {
     justify-content: center;
 }
 
-.footer__block-body-li-style li {
+.footer-block-body-li-style li {
     list-style-type: disc;
     color: #239df0;
     font-size: 14px;
     line-height: 23px
 }
 
-.footer__block-body-li-style a {
+.footer-block-body-li-style a {
     font-size: 14px;
     color: darkgray
 }
@@ -327,7 +319,7 @@ body {
     border-top: 2px solid #e6e6e6;
 }
 
-.copyright_col {
+.copyright-col {
     margin-bottom: 0;
     text-align: right
 }
@@ -343,16 +335,16 @@ body {
     text-decoration-line: none
 }
 
-.social__item {
+.social-item {
     margin-left: 0;
     margin-right: 10px;
 }
 
-.social__item:hover {
+.social-item:hover {
     color: #239df0;
 }
 
-.copyright__text {
+.copyright-text {
     font-size: 16px;
     color: gray
 }
@@ -362,7 +354,7 @@ body {
     font-size: 22px
 }
 
-.service_title {
+.service-title {
     position: absolute;
     color: white;
     font-size: 18px;
@@ -380,7 +372,7 @@ body {
     visibility: hidden;
 }
 
-.featured_one_background:hover .service_title {
+.featured-one-background:hover .service-title {
     height: 100%;
     opacity: 0.9;
     visibility: visible;
@@ -399,7 +391,7 @@ body {
 
 .header-style {
     min-height: 700px;
-    background-color: rgb(247, 252, 255);
+    background-color: pink;
     border-radius: 0 0 50% 50% / 0 0 85% 85%;
 }
 
@@ -564,4 +556,8 @@ body {
 
 .header-menu-image {
     width: 250px
+}
+
+.header-right-div {
+    margin-right: 150px
 }
