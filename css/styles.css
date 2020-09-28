@@ -433,9 +433,8 @@ body {
 }
 
 .app-p {
-    font-size: 18px;
-    max-width: 560px;
-    margin: 60px auto 0;
+    font-size: 16px;
+    margin: 40px;
     text-align: justify;
     line-height: 1.5;
 }
@@ -511,8 +510,8 @@ body {
 .all-btn {
     border: 2px solid grey;
     border-radius: 5px;
-    padding: 12px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .dropdown-menu-width {
@@ -527,6 +526,6 @@ body {
     width: 450%
 }
 
-.x {
-    margin-top: 50px;
+.app-title {
+    text-align: center
 }
