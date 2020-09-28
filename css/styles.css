@@ -41,9 +41,10 @@ body {
 }
 
 .section-header {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-align: center;
     position: relative;
+    margin-top: 50px
 }
 
 .section-services-item {
@@ -588,4 +589,41 @@ body {
     100% {
         transform: rotate(10deg);
     }
+}
+
+.card-style {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px
+}
+
+.background-pic {
+    background-image: url(../image/background_3.png);
+    background-color: rgb(61, 175, 250);
+    min-height: 500px
+}
+
+.sign {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid white;
+    border-right: 25px solid white;
+    border-top: 25px solid white;
+    position: absolute;
+    left: 8%;
+}
+
+.slider-title {
+    color: white;
+}
+
+.slider-subtitle {
+    color: white
+}
+
+.user {
+    position: absolute;
+    top: 90%;
+    background-color: red;
 }
