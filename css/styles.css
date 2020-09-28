@@ -561,3 +561,31 @@ body {
 .header-right-div {
     margin-right: 150px
 }
+
+#pandol {
+    width: 9px;
+    position: absolute;
+    top: 112px;
+    right: 157px;
+    animation: mymove 2s ease-in-out 0s infinite;
+}
+
+#tel_hand {
+    width: 45px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    animation: mymove 0.1s ease-in-out 4s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-5deg)
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
