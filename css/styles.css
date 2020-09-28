@@ -605,14 +605,11 @@ body {
 }
 
 .sign {
-    top: 100%;
     width: 0;
     height: 0;
-    border-left: 0 solid white;
-    border-right: 25px solid white;
-    border-top: 25px solid white;
-    position: absolute;
-    left: 8%;
+    border-top: 30px solid white;
+    border-right: 30px solid transparent;
+    margin-right: 260px
 }
 
 .slider-title {
