@@ -666,3 +666,31 @@ body {
     width: 40%;
     text-align: center
 }
+
+
+/* .intro__circle {
+    transition: none!important;
+}
+
+.intro__circle {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.intro__circle:nth-child(1) {
+    z-index: 1;
+    background-color: #33abfc;
+    width: 55.6em;
+    height: 55.6em;
+    margin-left: -27.8em;
+    top: calc(100% - 14.2em);
+    -ms-transform: translateY(15em);
+    transform: translateY(15em);
+}
+
+.intro__circle {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    transition: transform .7s cubic-bezier(.86, 0, .07, 1);
+} */
