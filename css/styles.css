@@ -600,7 +600,8 @@ body {
 .background-pic {
     background-image: url(../image/background_3.png);
     background-color: rgb(61, 175, 250);
-    min-height: 500px
+    background-size: cover;
+    min-height: 600px;
 }
 
 .sign {
@@ -623,7 +624,22 @@ body {
 }
 
 .user {
+    margin-top: 2rem;
+    color: white
+}
+
+.carousel-control-prev {
     position: absolute;
-    top: 90%;
-    background-color: red;
+    top: 150%;
+    left: 40%;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 150%;
+    right: 40%;
+}
+
+.padding-top-slider {
+    padding-top: 50px
 }
