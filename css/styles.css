@@ -643,3 +643,29 @@ body {
 .padding-top-slider {
     padding-top: 50px
 }
+
+.v {
+    position: absolute;
+    top: 80px;
+    right: 215px;
+}
+
+.wi {
+    width: 155px
+}
+
+.textt {
+    direction: rtl;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    width: 40%;
+}
+
+.texttt {
+    direction: rtl;
+    font-size: 18px;
+    color: black;
+    width: 40%;
+    text-align: center
+}
