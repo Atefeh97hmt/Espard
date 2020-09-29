@@ -9,6 +9,41 @@ body {
     direction: rtl;
 }
 
+
+
+
+
+
+
+
+
+
+.header-right-menu-title {
+    font-size: 35px;
+    text-align: center;
+    color: grey;
+}
+
+
+.header-right-menu-subtitle {
+
+font-size: 15px;
+text-align: center;
+color: grey;
+
+}
+
+.header-li-menu-image img{
+    width: 230px;
+    height: 250px;
+}
+
+
+
+
+
+
+
 .section_title {
     color: rgb(46, 158, 239);
     text-align: center;
@@ -535,9 +570,19 @@ body {
 }
 
 .bbb ul {
-    list-style: none;
+  
     text-align: right;
-    padding: 0px
+    padding: 0px 25px 0px 0px;
+   
+}
+.x{
+
+    font-size: 11px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    margin-right:20px;
+  
 }
 
 .featured_box_discount {
@@ -599,7 +644,7 @@ body {
 }
 
 .online-order-margin-top {
-    margin-top: 40px;
+    margin-top: 8px;
     text-align: center
 }
 
@@ -629,8 +674,22 @@ body {
 }
 
 .header-menu-image {
-    width: 250px
+    width: 220px
 }
+
+
+.header-menu-image-subtitle{
+    color: grey;
+    font-size: 27px;
+}
+.header-menu-image-title{
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 
 .header-right-div {
     margin-right: 150px
@@ -649,7 +708,12 @@ body {
     position: absolute;
     top: 165px;
     left: 75px;
-    animation: mymove 0.1s ease-in-out 4s infinite;
+   
+    animation: ring 0.1s ease-in-out 1s infinite;
+
+
+
+    
 }
 
 @keyframes mymove {
@@ -663,6 +727,17 @@ body {
         transform: rotate(10deg);
     }
 }
+
+
+
+@keyframes ring {
+    0% { transform: rotate(0); }
+   
+    50% { transform: rotate(20deg); }
+    
+    100% { transform: rotate(1deg); }
+  }
+
 
 .card-style {
     border: 2px solid white;
@@ -1046,17 +1121,15 @@ margin-left: 35px;
 
 
 @media screen and (max-width:990px) {
-    
-    .mobile-content-p {
-       
-        text-align: center;
-        font-size: 1px;
-        color: black;
-        width: 45%;
-        line-height: 0.7rem
-    
-    }}
-    @media screen and (max-width:990px) {
+.mobile-content-p {
+text-align: center;
+font-size: 1px;
+color: black;
+width: 45%;
+line-height: 0.7rem
+}}
+
+@media screen and (max-width:990px) {
     .mobile-content-title{
        
         font-size: 12px;
@@ -1066,7 +1139,7 @@ margin-left: 35px;
     }
     }
         
-    @media screen and (max-width:990px) {
+@media screen and (max-width:990px) {
         .mobile-content {
             position: absolute;
             top:40px;
@@ -1074,7 +1147,7 @@ margin-left: 35px;
         }
         
         }
-        @media screen and (max-width:990px) {
+ @media screen and (max-width:990px) {
             .app-part-slider-content-width img{
         width: 90px;
         text-align: center;
@@ -1086,7 +1159,7 @@ margin-left: 35px;
 
 
         
-    @media screen and (max-width:765px) {
+@media screen and (max-width:765px) {
     
         .mobile-content-p {
            
@@ -1096,7 +1169,7 @@ margin-left: 35px;
             width: 42%;
             line-height: 1rem;
         }}
-        @media screen and (max-width:765px) {
+@media screen and (max-width:765px) {
         .mobile-content-title{
            
             font-size: 20px;
@@ -1106,7 +1179,7 @@ margin-left: 35px;
         }
         }
             
-        @media screen and (max-width:765px) {
+@media screen and (max-width:765px) {
             .mobile-content {
                 position: absolute;
                 top:60px;
@@ -1114,7 +1187,7 @@ margin-left: 35px;
             }
             
             }
-            @media screen and (max-width:765px) {
+@media screen and (max-width:765px) {
             .app-part-slider-content-width img{
         width: 170px;
         text-align: center;
@@ -1122,14 +1195,7 @@ margin-left: 35px;
             }
         }
         
-        
-
-
-
-        
-
-        
-    @media screen and (max-width:525px) {
+@media screen and (max-width:525px) {
     
         .mobile-content-p {
            
@@ -1139,7 +1205,7 @@ margin-left: 35px;
             width: 42%;
             line-height: 1rem;
         }}
-        @media screen and (max-width:525px) {
+@media screen and (max-width:525px) {
         .mobile-content-title{
            
             font-size: 13px;
@@ -1149,7 +1215,7 @@ margin-left: 35px;
         }
         }
             
-        @media screen and (max-width:525px) {
+@media screen and (max-width:525px) {
             .mobile-content {
                 position: absolute;
                 top:50px;
@@ -1157,7 +1223,7 @@ margin-left: 35px;
             }
             
             }
-            @media screen and (max-width:525px) {
+@media screen and (max-width:525px) {
             .app-part-slider-content-width img{
         width: 120px;
         text-align: center;
@@ -1169,7 +1235,7 @@ margin-left: 35px;
 
 
 
-        @media screen and (max-width:535px) {
+@media screen and (max-width:535px) {
           
         
 .form-field {
@@ -1180,9 +1246,7 @@ margin-left: 35px;
     text-align: center;
 }
             }
-            @media screen and (max-width:535px) {
-         
-
+@media screen and (max-width:535px) {
 .form-button {
     position: absolute;
     right: 360px;
@@ -1193,7 +1257,7 @@ margin-left: 35px;
         }
         
 
-        @media screen and (max-width:435px) {
+@media screen and (max-width:435px) {
           
         
             .form-field {
@@ -1204,7 +1268,7 @@ margin-left: 35px;
                 text-align: center;
             }
                         }
-                        @media screen and (max-width:435px) {
+@media screen and (max-width:435px) {
                      
             
             .form-button {
@@ -1217,7 +1281,7 @@ margin-left: 35px;
                     }
                     
             
-                    @media screen and (max-width:1030px) {
+@media screen and (max-width:1030px) {
                      
             
                         .form-button {
@@ -1228,8 +1292,7 @@ margin-left: 35px;
                         }
                               
                                 }
-                        
-                                @media screen and (max-width:975px) {
+@media screen and (max-width:975px) {
                      
             
                                     .form-button {
@@ -1243,7 +1306,7 @@ margin-left: 35px;
                                             
                                     
                                     
-                                @media screen and (max-width:765px) {
+@media screen and (max-width:765px) {
                      
             
                                     .form-button {
@@ -1256,7 +1319,7 @@ margin-left: 35px;
                                             }
                                             
                                     
-                                            @media screen and (max-width:505px) {
+@media screen and (max-width:505px) {
                      
             
                                                 .form-button {
@@ -1268,7 +1331,7 @@ margin-left: 35px;
                                                        
                                                         }
 
-                                                        @media screen and (max-width:440px) {
+@media screen and (max-width:440px) {
                                                             .form-button {
                                                                 position: absolute;
                                                                 right:350px;
@@ -1279,7 +1342,7 @@ margin-left: 35px;
                                                                     }
 
 
-                                                                    @media screen and (max-width:435px) {
+@media screen and (max-width:435px) {
                                                                         .form-button {
                                                                             position: absolute;
                                                                             right:300px;
@@ -1289,7 +1352,7 @@ margin-left: 35px;
                                                                                
                                                                                 }
 
-                                                                                @media screen and (max-width:365px) {
+@media screen and (max-width:365px) {
                                                                                     .form-button {
                                                                                         position: absolute;
                                                                                         right:240px;
