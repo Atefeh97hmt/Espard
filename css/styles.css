@@ -152,7 +152,7 @@ body {
     margin-bottom: 20px;
 }
 
-.section__btn-wrap {
+.section-btn-wrap {
     display: block;
     text-align: center;
 }
@@ -185,6 +185,8 @@ body {
 .section-main-pro {
     color: #747474;
     text-align: justify;
+    font-size: 15px;
+    line-height:23px;
 }
 
 .section-becomePro {
@@ -221,7 +223,8 @@ body {
 .footer-block-title {
     color: #239df0;
     margin-bottom: 9px;
-    text-align: justify
+    text-align: justify;
+    font-size: 20px;
 }
 
 .footer-block-body {
@@ -243,7 +246,7 @@ body {
 
 .footer-block-body a {
     color: grey;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration-line: none;
 }
 
@@ -264,7 +267,7 @@ body {
 }
 
 .logo-img {
-    width: 150px;
+    width: 130px;
 }
 
 .footer-block-body p {
@@ -276,7 +279,7 @@ body {
 
 .espardinfologos {
     margin-bottom: 10px;
-    margin-top: 65px;
+    margin-top: 90px;
 }
 
 .footer_info {
@@ -288,13 +291,16 @@ body {
 }
 
 .espardinfo {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .ecunion-enamad {
     width: 110px
 }
+.ecunion-enamad2{
 
+    width: 85px
+}
 .trustseals {
     display: flex;
     flex-wrap: wrap;
@@ -351,7 +357,7 @@ body {
 }
 
 .social {
-    color: grey;
+    color: lightgray;
     font-size: 22px
 }
 
