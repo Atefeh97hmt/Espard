@@ -741,7 +741,7 @@ font-size: 15px;
     padding-top: 10px
 }
 
-.v {
+.mobile-content {
     position: absolute;
     top: 80px;
     right: 215px;
@@ -787,7 +787,7 @@ border-radius: 50%;
     }
 
 
-.textt {
+.mobile-content-p {
     direction: rtl;
     text-align: center;
     font-size: 12px;
@@ -795,7 +795,7 @@ border-radius: 50%;
     width: 40%;
 }
 
-.texttt {
+.mobile-content-title{
     direction: rtl;
     font-size: 18px;
     color: black;
@@ -921,3 +921,383 @@ color: grey;
     height: 30px;
    
 }
+
+
+
+
+
+
+
+@media screen and (max-width:1054px) {
+    .footer-block-responsive {
+    display: none;
+
+    }
+}
+
+
+@media screen and (max-width:570px) {
+    .footer-block-responsive-li-part {
+    display: none;
+
+    }
+}
+
+@media screen and (max-width:765px) {
+    .proImage{
+   margin-top: 25px;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .sign{
+   margin-right:200px ;
+
+    }
+}
+
+@media screen and (max-width:990px) {
+    .sign{
+   margin-right:130px ;
+
+    }
+}
+
+@media screen and (max-width:765px) {
+    .sign{
+   margin-right:380px ;
+
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .sign{
+   margin-right:230px ;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .sign{
+   margin-right:350px ;
+
+    }
+}
+
+@media screen and (max-width:990px) {
+  
+.carousel-control-prev {
+    position: absolute;
+    top: 120%;
+    left: 39%;
+}
+
+}
+
+@media screen and (max-width:990px) {
+  
+    .carousel-control-next {
+        position: absolute;
+        top: 120%;
+        left: 39%;
+    }
+    
+    }
+    
+
+    @media screen and (max-width:1200px) {
+    
+.mobile-content-p {
+   
+    text-align: center;
+    font-size: 11px;
+    color: black;
+    width: 40%;
+}}
+@media screen and (max-width:1200px) {
+.mobile-content-title{
+   
+    font-size: 15px;
+    color: black;
+    width: 40%;
+    text-align: center
+}
+}
+    
+@media screen and (max-width:1200px) {
+    .mobile-content {
+        position: absolute;
+        top:60px;
+        right: 185px;
+    }
+    
+    }
+    @media screen and (max-width:1200px) {
+    .app-part-slider-content-width img{
+width: 120px;
+text-align: center;
+margin-left: 35px;
+    }
+}
+
+
+
+
+@media screen and (max-width:990px) {
+    
+    .mobile-content-p {
+       
+        text-align: center;
+        font-size: 1px;
+        color: black;
+        width: 45%;
+        line-height: 0.7rem
+    
+    }}
+    @media screen and (max-width:990px) {
+    .mobile-content-title{
+       
+        font-size: 12px;
+        color: black;
+        width: 55%;
+        text-align: center
+    }
+    }
+        
+    @media screen and (max-width:990px) {
+        .mobile-content {
+            position: absolute;
+            top:40px;
+            right: 130px;
+        }
+        
+        }
+        @media screen and (max-width:990px) {
+            .app-part-slider-content-width img{
+        width: 90px;
+        text-align: center;
+        margin-left: 120px;
+            }
+        }
+        
+
+
+
+        
+    @media screen and (max-width:765px) {
+    
+        .mobile-content-p {
+           
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            width: 42%;
+            line-height: 1rem;
+        }}
+        @media screen and (max-width:765px) {
+        .mobile-content-title{
+           
+            font-size: 20px;
+            color: black;
+            width: 42%;
+            text-align: center
+        }
+        }
+            
+        @media screen and (max-width:765px) {
+            .mobile-content {
+                position: absolute;
+                top:60px;
+                right: 195px;
+            }
+            
+            }
+            @media screen and (max-width:765px) {
+            .app-part-slider-content-width img{
+        width: 170px;
+        text-align: center;
+        margin-left: 30px;
+            }
+        }
+        
+        
+
+
+
+        
+
+        
+    @media screen and (max-width:525px) {
+    
+        .mobile-content-p {
+           
+            text-align: center;
+            font-size: 12px;
+            color: black;
+            width: 42%;
+            line-height: 1rem;
+        }}
+        @media screen and (max-width:525px) {
+        .mobile-content-title{
+           
+            font-size: 13px;
+            color: black;
+            width: 42%;
+            text-align: center
+        }
+        }
+            
+        @media screen and (max-width:525px) {
+            .mobile-content {
+                position: absolute;
+                top:50px;
+                right: 170px;
+            }
+            
+            }
+            @media screen and (max-width:525px) {
+            .app-part-slider-content-width img{
+        width: 120px;
+        text-align: center;
+        margin-left: 30px;
+            }
+        }
+        
+
+
+
+
+        @media screen and (max-width:535px) {
+          
+        
+.form-field {
+    position: relative;
+    width: 390px!important;
+    height: 50px;
+    background-color: #edf8ff;
+    text-align: center;
+}
+            }
+            @media screen and (max-width:535px) {
+         
+
+.form-button {
+    position: absolute;
+    right: 360px;
+    color: white;
+    background-color: rgba(35,157,240,.9)
+}
+       
+        }
+        
+
+        @media screen and (max-width:435px) {
+          
+        
+            .form-field {
+                position: relative;
+                width: 320px!important;
+                height: 50px;
+                background-color: #edf8ff;
+                text-align: center;
+            }
+                        }
+                        @media screen and (max-width:435px) {
+                     
+            
+            .form-button {
+                position: absolute;
+                right: 300px;
+                color: white;
+                background-color: rgba(35,157,240,.9)
+            }
+                   
+                    }
+                    
+            
+                    @media screen and (max-width:1030px) {
+                     
+            
+                        .form-button {
+                            position: absolute;
+                            right:390px;
+                            color: white;
+                            background-color: rgba(35,157,240,.9)
+                        }
+                              
+                                }
+                        
+                                @media screen and (max-width:975px) {
+                     
+            
+                                    .form-button {
+                                        position: absolute;
+                                        right:290px;
+                                        color: white;
+                                        background-color: rgba(35,157,240,.9)
+                                    }
+                                           
+                                            }
+                                            
+                                    
+                                    
+                                @media screen and (max-width:765px) {
+                     
+            
+                                    .form-button {
+                                        position: absolute;
+                                        right:440px;
+                                        color: white;
+                                        background-color: rgba(35,157,240,.9)
+                                    }
+                                           
+                                            }
+                                            
+                                    
+                                            @media screen and (max-width:505px) {
+                     
+            
+                                                .form-button {
+                                                    position: absolute;
+                                                    right:370px;
+                                                    color: white;
+                                                    background-color: rgba(35,157,240,.9)
+                                                }
+                                                       
+                                                        }
+
+                                                        @media screen and (max-width:440px) {
+                                                            .form-button {
+                                                                position: absolute;
+                                                                right:350px;
+                                                                color: white;
+                                                                background-color: rgba(35,157,240,.9)
+                                                            }
+                                                                   
+                                                                    }
+
+
+                                                                    @media screen and (max-width:435px) {
+                                                                        .form-button {
+                                                                            position: absolute;
+                                                                            right:300px;
+                                                                            color: white;
+                                                                            background-color: rgba(35,157,240,.9)
+                                                                        }
+                                                                               
+                                                                                }
+
+                                                                                @media screen and (max-width:365px) {
+                                                                                    .form-button {
+                                                                                        position: absolute;
+                                                                                        right:240px;
+                                                                                        color: white;
+                                                                                        background-color: rgba(35,157,240,.9)
+                                                                                    }
+                                                                                }
+
+
+
+                                                                        
