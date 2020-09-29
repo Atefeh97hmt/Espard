@@ -747,9 +747,45 @@ font-size: 15px;
     right: 215px;
 }
 
-.wi {
+.app-part-slider-content-width {
     width: 155px
 }
+
+
+.fa-chevron-circle-blue1{
+
+color: white;
+position: absolute;
+left:100px;
+border: 2px solid grey;
+border-radius: 50%;
+}
+
+.fa-chevron-circle-blue2{
+
+    color: white;
+    position: absolute;
+    left:122px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    }
+    
+.fa-chevron-circle-blue3{
+
+    color: white;
+    position: absolute;
+    left:144px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    }
+.fa-chevron-circle-blue4{
+    color: white;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    left:166px;
+    }
+
 
 .textt {
     direction: rtl;
