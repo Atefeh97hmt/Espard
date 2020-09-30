@@ -1160,7 +1160,7 @@ color: grey!important;
 }
 
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:540px) {
     .sign{
    margin-right:350px ;
 
@@ -1175,13 +1175,13 @@ color: grey!important;
 
 
 
-@media screen and (max-width:455px) {
+@media screen and (max-width:480px) {
     .sign{
    margin-right:250px ;
 
     }
 }
-@media screen and (max-width:455px) {
+@media screen and (max-width:480px) {
 .background-pic {
     background-image: url(../image/background_3.png);
     background-color: rgb(61, 175, 250);
@@ -1191,14 +1191,14 @@ color: grey!important;
 }
 
 
-@media screen and (max-width:455px) {
+@media screen and (max-width:480px) {
 .carousel-control-prev {
     position: absolute;
     top: 105%!important;
     right: 43%;
 }
 }
-@media screen and (max-width:455px) {
+@media screen and (max-width:480px) {
 .carousel-control-next {
     position: absolute;
     top: 105%!important;
@@ -1244,7 +1244,12 @@ color: grey!important;
 
 
 
+@media screen and (max-width:325px) {
+    .sign{
+  display: none ;
 
+    }
+}
 
 
 
@@ -1307,6 +1312,11 @@ margin-left: 35px;
     }
 }
 
+
+@media screen and (max-width:1200px) {
+   .circle-next-prev {
+  display: none;
+    }}
 
 
 
@@ -1425,136 +1435,35 @@ line-height: 0.7rem
 
 
 
-@media screen and (max-width:535px) {
-          
-        
-.form-field {
-    position: relative;
-    width: 390px!important;
-    height: 50px;
-    background-color: #edf8ff;
-    text-align: center;
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5%;
 }
-            }
-@media screen and (max-width:535px) {
-.form-button {
-    position: absolute;
-    right: 360px;
-    color: white;
-    background-color: rgba(35,157,240,.9)
+
+.search input {
+  width: 250px;
+  height:52px;
+  width: 85%;
+  background: rgb(219, 240, 253);
+  border: none;
+  border-radius: 5px;
+
 }
-       
-        }
-        
 
-@media screen and (max-width:435px) {
-          
-        
-            .form-field {
-                position: relative;
-                width: 320px!important;
-                height: 50px;
-                background-color: #edf8ff;
-                text-align: center;
-            }
-                        }
-@media screen and (max-width:435px) {
-                     
-            
-            .form-button {
-                position: absolute;
-                right: 300px;
-                color: white;
-                background-color: rgba(35,157,240,.9)
-            }
-                   
-                    }
-                    
-            
-@media screen and (max-width:1030px) {
-                     
-            
-                        .form-button {
-                            position: absolute;
-                            right:390px;
-                            color: white;
-                            background-color: rgba(35,157,240,.9)
-                        }
-                              
-                                }
-@media screen and (max-width:975px) {
-                     
-            
-                                    .form-button {
-                                        position: absolute;
-                                        right:290px;
-                                        color: white;
-                                        background-color: rgba(35,157,240,.9)
-                                    }
-                                           
-                                            }
-                                            
-                                    
-                                    
-@media screen and (max-width:765px) {
-                     
-            
-                                    .form-button {
-                                        position: absolute;
-                                        right:440px;
-                                        color: white;
-                                        background-color: rgba(35,157,240,.9)
-                                    }
-                                           
-                                            }
-                                            
-                                    
-@media screen and (max-width:505px) {
-                     
-            
-                                                .form-button {
-                                                    position: absolute;
-                                                    right:370px;
-                                                    color: white;
-                                                    background-color: rgba(35,157,240,.9)
-                                                }
-                                                       
-                                                        }
+.search input {
+  text-indent: 32px;
+}
 
-@media screen and (max-width:440px) {
-                                                            .form-button {
-                                                                position: absolute;
-                                                                right:350px;
-                                                                color: white;
-                                                                background-color: rgba(35,157,240,.9)
-                                                            }
-                                                                   
-                                                                    }
-
-
-@media screen and (max-width:435px) {
-                                                                        .form-button {
-                                                                            position: absolute;
-                                                                            right:300px;
-                                                                            color: white;
-                                                                            background-color: rgba(35,157,240,.9)
-                                                                        }
-                                                                               
-                                                                                }
-
-@media screen and (max-width:365px) {
-                                                                                    .form-button {
-                                                                                        position: absolute;
-                                                                                        right:240px;
-                                                                                        color: white;
-                                                                                        background-color: rgba(35,157,240,.9)
-                                                                                    }
-                                                                                }
-
-
-
-                                                                        
-
-
-
-
+.search .xx {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  background-color: rgba(35,157,240,.9);
+  padding: 8px 12px 8px 12px;
+  color: white;
+  border-radius: 5px;
+ 
+}
