@@ -319,6 +319,14 @@ color: grey;
     max-width: 300px;
 }
 
+
+@media screen and (max-width:765px) {
+    .proImage{
+   margin-top: 30px;
+
+    }
+}
+
 .section-header-right {
     text-align: right;
     margin-bottom: 30px;
@@ -1062,12 +1070,6 @@ color: grey!important;
     }
 }
 
-@media screen and (max-width:765px) {
-    .proImage{
-   margin-top: 25px;
-
-    }
-}
 
 @media screen and (max-width:1200px) {
     .sign{
@@ -1083,27 +1085,169 @@ color: grey!important;
     }
 }
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:770px) {
     .sign{
-   margin-right:380px ;
+   margin-right:80px ;
 
     }
 }
 
 
-@media screen and (max-width:500px) {
+
+
+
+@media screen and (max-width:770px) {
+    .background-pic {
+        background-image: url(../image/background_3.png);
+        background-color: rgb(61, 175, 250);
+        background-size: cover;
+        min-height: 700px;
+    }
+    }
+    
+    
+    @media screen and (max-width:770px) {
+    .carousel-control-prev {
+        position: absolute;
+        top: 115%!important;
+        right: 43%;
+    }
+    }
+    @media screen and (max-width:770px) {
+    .carousel-control-next {
+        position: absolute;
+        top: 115%!important;
+        right: 37%;
+    }
+    }
+
+
+
+
+
+
+
+
+@media screen and (max-width:578px) {
     .sign{
-   margin-right:230px ;
+   margin-right:420px ;
 
     }
 }
+@media screen and (max-width:578px) {
+.background-pic {
+    background-image: url(../image/background_3.png);
+    background-color: rgb(61, 175, 250);
+    background-size: cover;
+    min-height: 1000px;
+}
+}
 
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:578px) {
+.carousel-control-prev {
+    position: absolute;
+    top: 105%!important;
+    right: 43%;
+}
+}
+@media screen and (max-width:578px) {
+.carousel-control-next {
+    position: absolute;
+    top: 105%!important;
+    right: 37%;
+}
+}
+
+
+@media screen and (max-width:520px) {
     .sign{
    margin-right:350px ;
 
     }
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:455px) {
+    .sign{
+   margin-right:250px ;
+
+    }
+}
+@media screen and (max-width:455px) {
+.background-pic {
+    background-image: url(../image/background_3.png);
+    background-color: rgb(61, 175, 250);
+    background-size: cover;
+    min-height: 1050px;
+}
+}
+
+
+@media screen and (max-width:455px) {
+.carousel-control-prev {
+    position: absolute;
+    top: 105%!important;
+    right: 43%;
+}
+}
+@media screen and (max-width:455px) {
+.carousel-control-next {
+    position: absolute;
+    top: 105%!important;
+    right: 37%;
+}
+}
+
+
+
+
+
+@media screen and (max-width:362px) {
+    .sign{
+   margin-right:200px ;
+
+    }
+}
+@media screen and (max-width:362px) {
+.background-pic {
+    background-image: url(../image/background_3.png);
+    background-color: rgb(61, 175, 250);
+    background-size: cover;
+    min-height: 1130px;
+}
+}
+
+
+@media screen and (max-width:362px) {
+.carousel-control-prev {
+    position: absolute;
+    top: 105%!important;
+    right: 44%;
+}
+}
+@media screen and (max-width:362px) {
+.carousel-control-next {
+    position: absolute;
+    top: 105%!important;
+    right: 36%;
+}
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:990px) {
   
@@ -1114,6 +1258,8 @@ color: grey!important;
 }
 
 }
+
+
 
 @media screen and (max-width:990px) {
   
@@ -1408,4 +1554,7 @@ line-height: 0.7rem
 
 
                                                                         
+
+
+
 
