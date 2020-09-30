@@ -13,10 +13,36 @@ body {
 
 
 
+.menu-part-ul ul {
+  
+    text-align: right;
+    padding: 0px 25px 0px 0px;
+   font-size: 14px;
+   color: lightgray;
+}
+
+
+.new-part{
+
+    background-color:tomato
+    ;padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+  margin-right: 2px;
+}
 
 
 
 
+.popular-blue-part{
+    background-color:rgb(46, 158, 239)
+     ;padding: 0px 10px 0px 10px;
+     border-radius: 5px;
+     color: white;
+     font-size: 10px;
+   margin-right: 20px;
+}
 
 .header-right-menu-title {
     font-size: 35px;
@@ -52,12 +78,25 @@ color: grey;
 .section_title_black {
     color: black;
     text-align: center;
+    font-size: 30px;
 }
 
 .section_subtitle {
     color: #9a9a9a;
     margin-top: 5px;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    text-align: center
+}
+
+.section-subtitle {
+    color: #9a9a9a;
+    margin-top: -10px;
+    font-size: 1.8em;
+    text-align: center
+}
+.section-subtitle span {
+    color: rgb(46, 158, 239);
+    font-size: 1.4em;
     text-align: center
 }
 
@@ -76,10 +115,10 @@ color: grey;
 }
 
 .section-header {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
     position: relative;
-    margin-top: 50px
+    margin-top: 30px
 }
 
 .section-services-item {
@@ -569,21 +608,7 @@ color: grey;
     margin-right: 32px;
 }
 
-.bbb ul {
-  
-    text-align: right;
-    padding: 0px 25px 0px 0px;
-   
-}
-.x{
 
-    font-size: 11px;
-    background-color: tomato;
-    color: white;
-    border-radius: 5px;
-    margin-right:20px;
-  
-}
 
 .featured_box_discount {
     text-align: center;
@@ -607,7 +632,15 @@ color: grey;
     min-height: 52px;
     margin-bottom: 12px;
 }
-
+.border-bottom-left-part {
+    border-bottom: 1px solid #5b5b5b;
+    padding: 0;
+    color: #5b5b5b;
+    position: relative;
+    min-height: 52px;
+    margin-bottom: 12px;
+    min-width: 250px;
+}
 .menu_img {
     position: absolute;
     display: block;
@@ -622,6 +655,7 @@ color: grey;
     text-align: justify;
     color: #9a9a9a;
     z-index: 1;
+    font-size: 14px;
 }
 
 
@@ -635,7 +669,15 @@ color: grey;
 .dropdown-menu-left-width {
     position: absolute;
     left: 0;
-    width: 450%
+    width: 400%;
+  
+    
+}
+
+.left-menu-margin{
+
+
+    margin-right: 50px;
 }
 
 .app-title {
@@ -652,7 +694,8 @@ color: grey;
     font-size: 15px;
     position: absolute;
     right: 5px;
-    top: 25px
+    top: 25px;
+    color: black;
 }
 
 .each-part-title-a-color {
@@ -980,13 +1023,14 @@ border-radius: 50%;
 
 
 .thick{
-    display: block;
-    margin: 0 50px 0 0;
-    text-align: right;
+display: block;
+margin: 0 50px 0 0;
+text-align: right;
 line-height:22px;
-color: grey;
+color: grey!important;
 }
 
+    
 
 .btnicon {
     position: absolute;
@@ -1364,3 +1408,4 @@ line-height: 0.7rem
 
 
                                                                         
+
