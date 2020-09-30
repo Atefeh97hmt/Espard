@@ -94,6 +94,71 @@ color: grey;
     font-size: 1.8em;
     text-align: center
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:760px) {
+.section_title {
+    color: rgb(46, 158, 239);
+    text-align: center;
+    font-size: 24px;
+}}
+@media screen and (max-width:760px) {
+.section_title_black {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}}
+@media screen and (max-width:760px) {
+.section_subtitle {
+    color: #9a9a9a;
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: center
+}}
+@media screen and (max-width:760px) {
+.section-subtitle {
+    color: #9a9a9a;
+    margin-top: -10px;
+    font-size: 1em;
+    text-align: center
+}}
+
+
+
+@media screen and (max-width:990px) {
+    .card-c-title {
+     
+        font-size: 22px!important;
+        color: #585858;
+    }}
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-subtitle span {
     color: rgb(46, 158, 239);
     font-size: 1.4em;
@@ -516,7 +581,7 @@ color: grey;
     color: white;
     font-size: 18px;
     background: rgb(55, 172, 251);
-    width: 100%;
+    width: 98%;
     height: 0;
     display: flex;
     bottom: 0;
@@ -548,8 +613,10 @@ color: grey;
 
 .header-style {
     min-height: 700px;
-    background-color: pink;
+    background-color: rgb(237, 248, 255);
     border-radius: 0 0 50% 50% / 0 0 85% 85%;
+  
+
 }
 
 
@@ -746,25 +813,23 @@ color: grey;
     margin-right: 150px
 }
 
+
+
+
 #pandol {
     width: 9px;
     position: absolute;
     top: 110px;
-    right: 173px;
+    right: 158px;
     animation: mymove 2s ease-in-out 0s infinite;
 }
 
 #tel_hand {
-    width: 45px;
+    width: 42px;
     position: absolute;
-    top: 165px;
-    left: 75px;
-   
-    animation: ring 0.1s ease-in-out 1s infinite;
-
-
-
-    
+    top: 168px;
+    left: 63px;
+    animation: ring 0.2s ease-in-out 0s infinite; 
 }
 
 @keyframes mymove {
@@ -779,15 +844,250 @@ color: grey;
     }
 }
 
-
-
 @keyframes ring {
     0% { transform: rotate(0); }
    
-    50% { transform: rotate(20deg); }
+    50% { transform: rotate(7deg); }
     
     100% { transform: rotate(1deg); }
   }
+
+
+
+
+  @media screen and (max-width:1200px) {
+  #pandol {
+    width: 7px;
+    position: absolute;
+    top: 80px;
+    right: 132px;
+    animation: mymove 2s ease-in-out 0s infinite;
+}}
+
+@media screen and (max-width:1200px) {
+#tel_hand {
+    width: 33px;
+    position: absolute;
+    top: 126px;
+    left: 55px;
+    animation: ring 0.2s ease-in-out 0s infinite; 
+}}
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    #pandol {
+      width: 7px;
+      position: absolute;
+      top: 38px;
+      right: 95px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:990px) {
+  #tel_hand {
+      width: 25px;
+      position: absolute;
+      top: 72px;
+      left:40px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+  
+  
+  
+  
+
+
+
+
+  @media screen and (max-width:770px) {
+    #pandol {
+      width: 8px;
+      position: absolute;
+      top: 102px;
+      right: 148px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:770px) {
+  #tel_hand {
+      width: 40px;
+      position: absolute;
+      top: 150px;
+      left: 60px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+
+
+
+
+  @media screen and (max-width:570px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 115px;
+      right: 158px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:570px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 165px;
+      left: 68px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+
+
+  @media screen and (max-width:560px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 105px;
+      right: 148px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:560px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 155px;
+      left:60px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  @media screen and (max-width:540px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 100px;
+      right: 145px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:540px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 145px;
+      left:58px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+
+
+ 
+  @media screen and (max-width:520px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 90px;
+      right: 160px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:520px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 135px;
+      left: 75px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+ 
+  @media screen and (max-width:500px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 90px;
+      right: 148px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:500px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 130px;
+      left: 70px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+  @media screen and (max-width:480px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 80px;
+      right: 145px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:480px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 122px;
+      left: 70px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+
+  @media screen and (max-width:460px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 70px;
+      right: 142px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:460px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 114px;
+      left: 70px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }}
+  
+  
+
+
+
+  @media screen and (max-width:440px) {
+    #pandol {
+      width: 10px;
+      position: absolute;
+      top: 70px;
+      right: 130px;
+      animation: mymove 2s ease-in-out 0s infinite;
+  }}
+  
+  @media screen and (max-width:440px) {
+  #tel_hand {
+      width: 35px;
+      position: absolute;
+      top: 100px;
+      left: 65px;
+      animation: ring 0.2s ease-in-out 0s infinite; 
+  }} 
+  
 
 
 .card-style {
@@ -1018,15 +1318,9 @@ border-radius: 50%;
     border-radius: 5px;
     width: 180px;
     height: 48px;
-    cursor: pointer;
     margin-top: 5px;
     margin-left: 5px;
     right: 5px;
-    background-color: unset;
-    -webkit-transition: background-color .2s cubic-bezier(.215,.61,.355,1) 0s;
-    -moz-transition: background-color .2s cubic-bezier(.215,.61,.355,1) 0s;
-    -ms-transition: background-color .2s cubic-bezier(.215,.61,.355,1) 0s;
-    transition: background-color .2s cubic-bezier(.215,.61,.355,1) 0s;
 }
 
 
@@ -1627,7 +1921,7 @@ line-height: 0.7rem
   text-indent: 32px;
 }
 
-.search .xx {
+.search .btn-back-color {
   position: absolute;
   top: 5px;
   left: 45px;
@@ -1637,3 +1931,42 @@ line-height: 0.7rem
   border-radius: 5px;
  
 }
+
+.navbar-toggler{
+color: gray;
+}
+
+.nav-item a{
+    color: gray;
+}
+
+/* .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+white-space: normal;
+    } */
+
+
+
+
+
+    /* @media screen and (max-width:1255px) {
+        .dropdown-menu{
+    width:300px;
+  
+    }
+
+    } */
+
+
+
+
+    .section-image{
+
+        position: relative;
+    }
+
+    
