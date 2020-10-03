@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'yekan';
-    src: url('../yekan-font/Yekan-regular.eot') format('embedded-opentype'), url('../yekan-font/Yekan-regular.woff') format('woff'), url('../yekan-font/Yekan-regular.ttf') format('truetype');
+    font-family: 'iran-yekan';
+    src: url('../Iran_Yekan/Yekan.eot') format('embedded-opentype'), url('../Iran_Yekan/Yekan.woff') format('woff'), url('../Iran_Yekan/Yekan.ttf') format('truetype');
     font-weight: normal;
 }
 
 body {
-    font-family: yekan;
+    font-family:iran-yekan ;
     direction: rtl;
 }
 body a{
@@ -245,11 +245,11 @@ font-size: 2em;
     text-align: justify;
     line-height: 1.5em;
     font-size: 15px;
+    width:90% ;
+    margin-right:5%;
 }
 
-.card-a {
-    font-size: 0;
-}
+
 
 .card-b {
     margin-top: 10px;
