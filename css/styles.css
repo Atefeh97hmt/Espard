@@ -263,11 +263,10 @@ top:10px;
 
 .card-b {
     margin-top: 10px;
+  
 }
 
-.card-b-part-margin {
-    margin-left: 6%;
-}
+
 
 .card-b-img {
     display: inline-block;
@@ -279,6 +278,22 @@ top:10px;
     background-color: #fff;
     box-shadow: 12px 12px 30px rgba(0, 0, 0, .1);
 }
+
+
+@media only screen and (max-width: 500px){
+.card-b-img {
+    display: block;
+    margin: 0px auto 20px;
+}}
+
+@media only screen and (max-width: 500px){
+    .card-b-main {
+        width: 100%!important;
+        text-align: center;
+        font-size: 13px;
+        margin: 0px auto;
+       
+    }}
 
 .card-b-img img {
     width: 95px;
@@ -2526,7 +2541,7 @@ opacity: 1;
 
 /* Sidebar sizes when expanded and expanded */
 .sidebar-expanded {
-    width:300px;
+    width: 300px;
 }
 .sidebar-collapsed {
     width: 60px;
