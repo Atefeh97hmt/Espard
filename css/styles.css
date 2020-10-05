@@ -55,7 +55,7 @@ body a{
     border-radius: 5px;
     color: white;
     font-size: 10px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .header-right-menu-title {
@@ -2608,13 +2608,13 @@ opacity: 1;
 
 @media screen and (max-width:1200px) {
     .dropdown-menu-left-width{
-       width: 695px;
+       width: 690px;
  
 }}
 
 @media screen and (max-width:1200px) {
     .dropdown-menu-width{
-       width: 695px;
+       width: 690px;
  
 }}
 
@@ -2641,3 +2641,72 @@ opacity: 1;
     width: 25px;
  
 }}
+
+@media screen and (max-width:1200px) {
+    .each-part-title{
+font-size: 11px;
+top:30px;
+ 
+}}
+
+
+@media screen and (max-width:1200px) {
+    .menu_img{
+width: 25%;;
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .menu-part-ul ul{
+font-size: 12px;
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .txt{
+font-size: 12px;
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .border-bottom-left-part{
+min-width: 180px;;
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .header-menu-image{
+width: 170px;
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .header-menu-image-title{
+font-size:11px;
+}}
+
+@media screen and (max-width:1200px) {
+    .header-menu-image-subtitle{
+font-size:15px;
+text-align: center;
+}}
+
+@media screen and (max-width:1200px) {
+.left-menu-under-menu-link {
+    top: 400px !important;
+    right: -40px;
+}}
+
+@media screen and (max-width:1200px) {
+    .popular-blue-part {
+     margin-right: 0;
+     padding: 2px;
+     font-size:3px;
+    }}
+
+    @media screen and (max-width:1200px) {
+        .new-part {
+         margin-right: 0;
+         padding: 2px;
+         font-size:3px;
+        }}
