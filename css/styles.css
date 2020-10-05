@@ -1520,6 +1520,10 @@ top:10px;
 
 .navbar{
 background-color:#f7fcff;
+overflow: hidden;
+position: fixed; 
+top: 0; 
+width: 100%; 
 }
 
 /* .navbar {
@@ -2213,7 +2217,7 @@ overflow: hidden;
 .header-title-part {
     position: absolute;
     left: 50%;
-    bottom: 70%;
+    bottom: 60%;
     width: 100%;
     color: #333;
     -ms-transform: translateX(-50%);
@@ -2597,6 +2601,13 @@ padding-right: 0;
 
 
 
+.scroll{
+    height:380px;
+    width:280px;
+    border:1px solid #ccc;
+    overflow-y:scroll;
+    overflow-x: hidden;
+   }
 
 /* Sidebar sizes when expanded and expanded */
 .sidebar-expanded {
@@ -2712,11 +2723,3 @@ text-align: center;
          font-size:3px;
         }}
 
-
-        .scroll{
-         height:380px;
-         width:280px;
-         border:1px solid #ccc;
-         overflow-y:scroll;
-         overflow-x: hidden;
-        }
