@@ -1520,7 +1520,6 @@ top:10px;
 
 .navbar{
 background-color:#f7fcff;
-overflow: hidden;
 position: fixed; 
 top: 0; 
 width: 100%; 
@@ -2483,7 +2482,9 @@ opacity: 1;
 
 .mobile-container{
 padding-right: 0;
-   margin-right: 0;
+margin-right: 0;
+margin-left: 0;
+background:rgba(78, 77, 80, 0.4)
 }
 
 
@@ -2513,6 +2514,7 @@ padding-right: 0;
 }
 .navbar{
     padding-right: 0;
+    padding-left: 0;
 }
 
 .mobile-menu-image{
@@ -2535,6 +2537,7 @@ padding-right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: white;
 
 }
 
