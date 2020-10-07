@@ -1283,7 +1283,9 @@ top:10px;
     text-align: right;
     margin-top: 20px;
 }
-
+.menu-collapsed {
+font-size: 13px;
+}
 .four-a {
     display: flex;
     -ms-flex-align: center;
@@ -2553,6 +2555,7 @@ padding-bottom: 50px;
 }
 .mobile-menu{
     width: 280px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2775,12 +2778,11 @@ bottom: 20%;
 
  
     .section-test::after{
-        content: url(image/m.svg);
+        content: url(../image/m.svg);
         position: absolute;
-        
         width: 100%;
         height: 50px;
-        bottom: 0;
+     top: 400px;
         right: 0;
         left: 0;
         z-index: 99;
