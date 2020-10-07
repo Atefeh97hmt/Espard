@@ -619,9 +619,9 @@ top:10px;
     height: 4.5em;
     */
 
-.header-left-ui {
+.header-left-div {
     position: absolute;
-    left: 200px
+    left:165px
 }
 
 .header-right-ui {
@@ -850,7 +850,7 @@ top:10px;
 }
 
 .header-right-div {
-    padding-right: 150px
+    padding-right: 145px
 }
 
 #pandol {
@@ -2484,7 +2484,7 @@ opacity: 1;
 padding-right: 0;
 margin-right: 0;
 margin-left: 0;
-background:rgba(78, 77, 80, 0.4)
+background:rgba(78, 77, 80, 0.1)
 }
 
 
@@ -2581,7 +2581,7 @@ background:rgba(78, 77, 80, 0.4)
     }
 } 
 @media screen and (max-width:991px) {
-    .header-left-ui{
+    .header-left-div{
         display: none!important;
     }
 } 
