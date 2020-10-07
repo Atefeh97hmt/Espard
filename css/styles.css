@@ -2777,12 +2777,12 @@ bottom: 20%;
 
 
  
-    .section-test::after{
+    .section-white-circle::after{
         content: url(../image/m.svg);
         position: absolute;
         width: 100%;
         height: 50px;
-     top: 400px;
+        top: 415px;
         right: 0;
         left: 0;
         z-index: 99;
@@ -2790,29 +2790,13 @@ bottom: 20%;
     } 
 
 
-/* 
 
-    .section-intro__shape-wrap {
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        width: 100%;
-        height: 400px;
-     pointer-events: none; 
-        z-index: 2;
-    }
 
-    .section-intro__shape {
-        display: none;
-        width: 100%;
-        height: 100%;
-    }
+ .back-to-top {
+  background-color: #fdc827;
+  color: white;
+  border-radius: 50%;
 
-    @media only screen and (max-width: 1400px){
-.section-intro__shape--md {
-    display: block;
-}}
- */
-
+}
 
 
