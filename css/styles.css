@@ -1140,7 +1140,8 @@ top:10px;
     height: 0;
     border-top: 30px solid white;
     border-right: 30px solid transparent;
-    margin-right: 260px
+ margin-left: 30px;
+  
 }
 
 .slider-title {
@@ -1309,8 +1310,23 @@ font-size: 13px;
     margin-left: 5px;
     right: 5px;
 }
+.all-btn-header {
+    display: block;
+    position: relative;
+    padding: 0 15px;
+    border: 2px solid rgba(88, 88, 88, .9);
+    border-radius: 5px;
+    width: 180px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 5px;
+    right: 5px;
+}
 
 .all-btn:hover {
+    background-color: rgb(219, 240, 253);
+}
+.all-btn-header:hover {
     background-color: rgb(219, 240, 253);
 }
 
@@ -1340,6 +1356,32 @@ font-size: 13px;
     width: 30px;
     height: 30px;
 }
+.thick-header {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    line-height: 20px;
+    color: lightgray!important;
+    font-size: 14px;
+   
+}
+
+.thicker-header {
+    display: flex;
+  justify-content: center;
+    text-align: right;
+    line-height: 20px;
+    color: gray!important;
+    font-size: 17px;
+   
+}
+.btnicon-header {
+    position: absolute;
+    right: 10px;
+    top: 18%;
+    width: 30px;
+    height: 30px;
+}
 
 @media screen and (max-width:1054px) {
     .footer-block-responsive {
@@ -1352,7 +1394,7 @@ font-size: 13px;
         display: none;
     }
 }
-
+/* 
 @media screen and (max-width:1200px) {
     .sign {
         margin-right: 200px;
@@ -1369,15 +1411,15 @@ font-size: 13px;
     .sign {
         margin-right: 80px;
     }
-}
-
+} */
+/* 
 @media screen and (max-width:770px) {
     .slider-part-background {
         background-image: url(../image/background_3.png);
         background-color: rgb(61, 175, 250);
         background-size: cover;
      
-        opacity: 40%;
+  
     }
 }
 
@@ -1395,14 +1437,14 @@ font-size: 13px;
         top: 115%!important;
         right: 37%;
     }
-}
+} */
 
-@media screen and (max-width:578px) {
+/* @media screen and (max-width:578px) {
     .sign {
         margin-right: 420px;
     }
-}
-
+} */
+/* 
 @media screen and (max-width:578px) {
     .slider-part-background {
         background-image: url(../image/background_3.png);
@@ -1426,9 +1468,9 @@ font-size: 13px;
         top: 105%!important;
         right: 37%;
     }
-}
+} */
 
-@media screen and (max-width:540px) {
+/* @media screen and (max-width:540px) {
     .sign {
         margin-right: 350px;
     }
@@ -1438,8 +1480,8 @@ font-size: 13px;
     .sign {
         margin-right: 250px;
     }
-}
-
+} */
+/* 
 @media screen and (max-width:480px) {
     .slider-part-background {
         background-image: url(../image/background_3.png);
@@ -1463,14 +1505,14 @@ font-size: 13px;
         top: 105%!important;
         right: 37%;
     }
-}
+} */
 
-@media screen and (max-width:362px) {
+/* @media screen and (max-width:362px) {
     .sign {
         margin-right: 200px;
     }
-}
-
+} */
+/* 
 @media screen and (max-width:362px) {
     .slider-part-background {
         background-image: url(../image/background_3.png);
@@ -1478,7 +1520,7 @@ font-size: 13px;
         background-size: cover;
         min-height: 1130px;
     }
-}
+} */
 
 
 .search {
@@ -1796,13 +1838,8 @@ white-space: normal;
 }
 
 .mobile-content {
-    position: absolute;
-    top: 100px;
-    right: 210px;
     border-radius: 5px;
     background: white;
-width: 150px;
-height: 250px;
 
 }
 
@@ -2135,7 +2172,7 @@ height: 250px;
     }
 } */
 
-
+/* 
 
 
 @media screen and (max-width:1200px) {
@@ -2188,12 +2225,12 @@ overflow: hidden;
         
         
         
-    @media screen and (max-width:575px) {
+    @media screen and (max-width:599px) {
   
         .mobile-content {
             position: absolute;
-            top: 100px;
-            right: 210px;
+            top: 90px;
+            right: 195px;
             border-radius: 5px;
             background: white;
         width: 150px;
@@ -2203,6 +2240,178 @@ overflow: hidden;
         }
             }
    
+
+
+       
+            @media screen and (max-width:575px) {
+  
+                .mobile-content {
+                    position: absolute;
+                    top: 98px;
+                    right: 210px;
+                    border-radius: 5px;
+                    background: white;
+                width: 152px;
+                height: 258px;
+                overflow: hidden;
+                
+                }
+                    }
+
+                    @media screen and (max-width:565px) {
+  
+                        .mobile-content {
+                            position: absolute;
+                            top: 98px;
+                            right: 205px;
+                            border-radius: 5px;
+                            background: white;
+                        width: 152px;
+                        height: 258px;
+                        overflow: hidden;
+                        
+                        }
+                            }
+
+
+                            @media screen and (max-width:565px) {
+  
+                                .mobile-content {
+                                    position: absolute;
+                                    top: 98px;
+                                    right: 200px;
+                                    border-radius: 5px;
+                                    background: white;
+                                width: 152px;
+                                height: 258px;
+                                overflow: hidden;
+                                
+                                }
+                                    }
+        
+
+                            @media screen and (max-width:555px) {
+  
+                                .mobile-content {
+                                    position: absolute;
+                                    top: 90px;
+                                    right: 195px;
+                                    border-radius: 5px;
+                                    background: white;
+                                width: 150px;
+                                height: 250px;
+                                overflow: hidden;
+                                
+                                }
+                                    }
+
+
+                                    @media screen and (max-width:555px) {
+  
+                                        .mobile-content {
+                                            position: absolute;
+                                            top: 90px;
+                                            right: 195px;
+                                            border-radius: 5px;
+                                            background: white;
+                                        width: 150px;
+                                        height: 250px;
+                                        overflow: hidden;
+                                        
+                                        }
+                                            }
+
+                                    @media screen and (max-width:535px) {
+  
+                                        .mobile-content {
+                                            position: absolute;
+                                            top: 90px;
+                                            right: 192px;
+                                            border-radius: 5px;
+                                            background: white;
+                                        width: 150px;
+                                        height: 250px;
+                                        overflow: hidden;
+                                        
+                                        }
+                                            }
+
+
+                                            @media screen and (max-width:525px) {
+  
+                                                .mobile-content {
+                                                    position: absolute;
+                                                    top: 90px;
+                                                    right: 192px;
+                                                    border-radius: 5px;
+                                                    background: white;
+                                                width: 140px;
+                                                height: 240px;
+                                                overflow: hidden;
+                                                
+                                                }
+                                                    }
+                                                    
+                                            @media screen and (max-width:515px) {
+  
+                                                .mobile-content {
+                                                    position: absolute;
+                                                    top: 90px;
+                                                    right: 192px;
+                                                    border-radius: 5px;
+                                                    background: white;
+                                                width: 130px;
+                                                height: 230px;
+                                              
+                                                
+                                                }
+                                                    }
+                                                    @media screen and (max-width:505px) {
+  
+                                                        .mobile-content {
+                                                            position: absolute;
+                                                            top: 90px;
+                                                            right: 192px;
+                                                            border-radius: 5px;
+                                                            background: white;
+                                                        width: 120px;
+                                                        height: 220px;
+                                                      
+                                                        
+                                                        }
+                                                            }
+                                                            @media screen and (max-width:495px) {
+  
+                                                                .mobile-content {
+                                                                    position: absolute;
+                                                                    top: 90px;
+                                                                    right: 188px;
+                                                                    border-radius: 5px;
+                                                                    background: white;
+                                                                width: 120px;
+                                                                height: 220px;
+                                                              
+                                                                
+                                                                }
+                                                                    }
+
+
+                                                                    @media screen and (max-width:495px) {
+  
+                                                                        .mobile-content {
+                                                                            position: absolute;
+                                                                            top: 80px;
+                                                                            right: 179px;
+                                                                            border-radius: 5px;
+                                                                            background: white;
+                                                                        width: 120px;
+                                                                        height: 220px;
+                                                                      
+                                                                        
+                                                                        }
+                                                                            }
+                                              */
+
 .list-group{
     padding-right:0;
     margin-top: 5px;
@@ -2660,25 +2869,25 @@ padding-bottom: 50px;
 }}
 
 @media screen and (max-width:1200px) {
-    .all-btn{
+    .all-btn-header{
        width:150px;
  
 }}
 
 @media screen and (max-width:1200px) {
-    .thick{
+    .thick-header{
       font-size: 12px;
  
 }}
 
 @media screen and (max-width:1200px) {
-    .thicker{
+    .thicker-header{
       font-size:12px;
  
 }}
 
 @media screen and (max-width:1200px) {
-    .btnicon{
+    .btnicon-header{
     width: 25px;
  
 }}
@@ -2782,21 +2991,99 @@ bottom: 20%;
         position: absolute;
         width: 100%;
         height: 50px;
-        top: 415px;
         right: 0;
         left: 0;
+     bottom:-10px;
         z-index: 99;
+        display: flex;
+        align-items: flex-end;
 
     } 
 
 
 
 
- .back-to-top {
-  background-color: #fdc827;
-  color: white;
-  border-radius: 50%;
+
+
+
+
+
+.slider {
+width:100%;
+    direction: ltr;
+   position: relative
+
 
 }
 
+.slick-slide {
+  margin: 0px 20px;
+}
 
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+.slider-style p{ 
+
+    position: relative;
+}
+
+.slider-white-background{
+
+    background-color: white;
+    padding: 8%;
+    border-radius: 15px;
+  
+}
+
+.slider-white-background {
+text-align: right;
+}
+.slider-white-background p{
+    text-align: justify;
+    direction: rtl;
+   }
+
+
+
+   .center{
+       width: 300px;
+       position: absolute!important;
+       top:100px;
+       right: 135px;
+       height:350px;
+   }
+
+ .orange-scroll-btn{
+    position: absolute;
+   bottom: 150px;
+ }
+
+.back-to-top {
+    background-color: #fdc827;
+    color: white;
+    border-radius: 50%;
+  
+  }
+  
