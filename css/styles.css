@@ -3102,8 +3102,46 @@ text-align: right;
   
 
   .slick-prev{
-    display: none!important;
+top: 120%!important;
+left: 45%!important;
+border: 1px solid white!important;
+border-radius: 50%;
+
   }
   .slick-next{
-display: none!important;
+    top: 120%!important;
+    right: 45%!important; 
+    border: 1px solid white!important;
+border-radius: 50%;
   }
+
+  
+
+  .slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+  }
+   .slick-dots li {
+			margin: 0 0.25rem;
+		}
+	
+		.slick-dots button {
+			display: block!important;
+			width: 1rem!important;
+			height: 1rem!important;
+			padding: 0!important;
+			border: none!important;
+			border-radius: 100%!important;
+			background-color: rgba(0, 0, 0, .1)!important;
+			text-indent: -9999px!important;
+		}
+	
+        .slick-dots li.slick-active button {
+			background-color: #0d85d6!important;
+		}
+	
