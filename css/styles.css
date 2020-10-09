@@ -3080,14 +3080,6 @@ text-align: right;
 
 
 
-   .center{
-       width: 300px;
-       position: absolute!important;
-       top:100px;
-       right: 135px;
-       height:350px;
-   }
-
  .orange-scroll-btn{
     position: absolute;
    bottom: 150px;
@@ -3116,18 +3108,15 @@ border-radius: 50%;
   }
 
   
-
   .slick-dots {
-	display: flex;
-	justify-content: center;
-	
-	margin: 0;
-	padding: 1rem 0;
-	
-	list-style-type: none;
+	display: flex!important;
+	justify-content: center!important;
+	margin: 0!important;
+	padding: 1rem 0!important;
+	list-style-type: none!important;
   }
    .slick-dots li {
-			margin: 0 0.25rem;
+			margin: 0 0.25rem!important;
 		}
 	
 		.slick-dots button {
@@ -3138,10 +3127,181 @@ border-radius: 50%;
 			border: none!important;
 			border-radius: 100%!important;
 			background-color: rgba(0, 0, 0, .1)!important;
-			text-indent: -9999px!important;
+			/* text-indent: -9999px!important; */
 		}
 	
         .slick-dots li.slick-active button {
 			background-color: #0d85d6!important;
 		}
 	
+
+
+        .center{
+            width: 300px;
+            position: absolute!important;
+            top:110px;
+            right: 135px;
+            height:350px;
+      
+        }
+     
+        @media screen and (max-width:1199px) {
+            .center{
+                width: 270px;
+                position: absolute!important;
+                top:83px;
+                right: 105px;
+                height:300px;
+            }}
+
+            @media screen and (max-width:1199px) {
+                .center-img{
+                    width: 80%;
+                margin-left: 10px;
+                 
+                }}
+    
+            @media screen and (max-width:1199px) {
+                .mobile-content-p{
+               font-size: 10px;
+                 
+                }}
+
+
+                @media screen and (max-width:991px) {
+                    .center{
+                        width: 235px;
+                        position: absolute!important;
+                        top:57px;
+                        right: 62px;
+                        height:250px;
+                      
+                    }}
+        
+                    @media screen and (max-width:991px) {
+                        .center-img{
+                            width: 70%;
+                        margin-left: 10px;
+                         
+                        }}
+            
+                    @media screen and (max-width:991px) {
+                        .mobile-content-p{
+                       font-size:1px;
+                       line-height: 9px;
+text-align: right;
+                         
+                        }}
+                        @media screen and (max-width:991px) {
+                            .mobile-content-title{
+                           font-size:5px;
+                             
+                            }}
+
+
+
+                            @media screen and (max-width:767px) {
+                                .center{
+                                    width: 300px;
+                                    position: absolute!important;
+                                    top:100px;
+                                    right: 120px;
+                                    height:300px;
+                                  
+                                }}
+                    
+                                @media screen and (max-width:767px) {
+                                    .center-img{
+                                        width: 100%;
+                                  
+                                    }}
+                        
+                                @media screen and (max-width:767px) {
+                                    .mobile-content-p{
+                                        text-align: justify;
+                                        font-size: 11px;
+                                        color: gray;
+                                        line-height: 15px;
+                                 
+            
+                                     
+                                    }}
+                                    @media screen and (max-width:767px) {
+                                        .mobile-content-title{
+                                       font-size:12px;
+                                         
+                                        }}
+
+
+
+                                        @media screen and (max-width:575px) {
+                                            .center{
+                                                width: 300px;
+                                                position: absolute!important;
+                                                top:100px;
+                                                right: 137px;
+                                                height:385px;
+                                              
+                                            }}
+                                
+                                            @media screen and (max-width:575px) {
+                                                .center-img{
+                                                    width: 100%;
+                                              
+                                                }}
+                                    
+                                            @media screen and (max-width:575px) {
+                                                .mobile-content-p{
+                                                    text-align: justify;
+                                                    font-size: 13px;
+                                                    color: gray;
+                                                    line-height: 15px;
+                                             
+                        
+                                                 
+                                                }}
+                                                @media screen and (max-width:575px) {
+                                                    .mobile-content-title{
+                                                   font-size:12px;
+                                                     
+                                                    }}
+
+                                                    @media screen and (max-width:565px) {
+                                                        .center{
+                                                            width: 300px;
+                                                            position: absolute!important;
+                                                            top:100px;
+                                                            right: 127px;
+                                                            height:385px;
+                                                          
+                                                        }}
+
+                                                        @media screen and (max-width:555px) {
+                                                            .center{
+                                                                width: 300px;
+                                                                position: absolute!important;
+                                                                top:100px;
+                                                                right: 117px;
+                                                                height:385px;
+                                                              
+                                                            }}
+
+                                                            @media screen and (max-width:545px) {
+                                                                .center{
+                                                                    width: 300px;
+                                                                    position: absolute!important;
+                                                                    top:100px;
+                                                                    right: 107px;
+                                                                    height:385px;
+                                                                  
+                                                                }}
+
+                                                                @media screen and (max-width:535px) {
+                                                                    .center{
+                                                                        width: 300px;
+                                                                        position: absolute!important;
+                                                                        top:100px;
+                                                                        right: 97px;
+                                                                        height:385px;
+                                                                      
+                                                                    }}
