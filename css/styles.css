@@ -3005,8 +3005,24 @@ bottom: 20%;
 
 
 
+    .top {
+        background-color:#fdc827;
+        width:40px;
+        height: 40px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+       bottom:20px ;
+        left: 49%;
+        z-index: 100;
+      }
+.fa-arrow-down{
 
-
+    font-size: 20px;
+}
 
 .slider {
 width:100%;
@@ -3087,3 +3103,10 @@ text-align: right;
   
   }
   
+
+  .slick-prev{
+    display: none!important;
+  }
+  .slick-next{
+display: none!important;
+  }
