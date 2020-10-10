@@ -38,8 +38,9 @@ color: #fdc827;
 }
 .header-menu-image-back {
     background-color: rgb(241, 240, 240);
-    width: 102%;
+    width: 115.5%;
     position: absolute;
+    min-height: 300px;
 }
 
 .new-part {
@@ -850,27 +851,28 @@ top:10px;
 .header-blue-btn {
     text-align: center;
     font-weight: 500;
-    margin: 30px 15% 30px 0;
-    width: 70%;
-    font-size: 22px;
+    margin: 30px 18% 30px 0;
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
     color: #fff;
     border: 2px #f8f8f8;
-    background-color: lightskyblue;
+    background-color: #27a0f2;
     border-radius: 50px;
     padding: 5px;
 }
 
 .header-menu-image {
-    width: 220px
+    width: 250px
 }
 
 .header-menu-image-subtitle {
-    color: grey;
-    font-size: 23px;
+    color: #333;
+    font-size: 29px;
 }
 
 .header-menu-image-title {
-    color: darkgray;
+    color: #666;
     font-size: 14px;
     margin-top: 50px;
     text-align: center;
@@ -3133,6 +3135,7 @@ left: 45%!important;
 border: 1px solid white!important;
 border-radius: 50%;
 
+
   }
   .slick-next{
     top: 120%!important;
@@ -3375,7 +3378,7 @@ width: 50%;
  .phone-slider__inner{
      position: absolute;
      top: 18%;
-     right:33%
+     right:32.5%
    
  }
 
@@ -3806,7 +3809,7 @@ margin-right: 5%;
 
 
 
-    .megamenu__overlay.is-active {
+    /* .megamenu__overlay.is-active {
         opacity: 1;
         pointer-events: all!important;
     }
@@ -3826,7 +3829,16 @@ margin-right: 5%;
         -ms-transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
         transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
         pointer-events: none;
-    }
+    } */
+
+
+
+
+
+
+
+
+
 
 
     .badge {
