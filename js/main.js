@@ -9,6 +9,7 @@ $(document).ready(function () {
 }); 
 	$(".regular").slick({
 		// dots: true,
+		rtl: true,
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
@@ -21,7 +22,7 @@ $(document).ready(function () {
 			  settings: {
 				arrows: false,
 				centerMode: true,
-				centerPadding: '40px',
+				centerPadding: '10px',
 				slidesToShow: 2
 			  }
 			},
@@ -36,20 +37,20 @@ $(document).ready(function () {
 			}
 		  ]
 	});
-	$(".center").slick({
+	$('.single-item-rtl').slick({
+		rtl: true,
 		dots: true,
-		infinite: true,
-		centerMode: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		speed: 900
-	}); 
+			infinite: true,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			speed: 900
+	
+	  });
   });
 
 
 
+  	  
 
   
 

@@ -12,6 +12,13 @@ body a{
     text-decoration: none!important;
 }
 
+.left-menu-btn{
+    margin-right: 20px;
+}
+.menu-part-ul{
+    min-width: 242px;
+margin-bottom: 80px;
+}
 .menu-part-ul ul {
     text-align: right;
     padding: 0px 25px 0px 0px;
@@ -776,7 +783,15 @@ top:10px;
     z-index: 1;
     font-size: 14px;
 }
+.txt-left-menu{
+  min-width: 240px;
+   white-space: normal;
+    text-align: justify;
+    color: #9a9a9a;
+    z-index: 1;
+    font-size: 14px;
 
+}
 .dropdown-menu-width {
     position: absolute;
     right: 0px; 
@@ -1137,14 +1152,22 @@ top:10px;
     min-height: 680px;
 }
 
+
 .sign {
-    width: 0;
-    height: 0;
-    border-top: 30px solid white;
-    border-right: 30px solid transparent;
- margin-left: 30px;
-  
-}
+width: 0;
+height: 0;
+border-top: 30px solid white;
+border-right: 30px solid transparent;
+/* margin-right: 250px; */
+} 
+
+
+
+
+
+
+
+
 
 .slider-title {
     color: white;
@@ -1816,33 +1839,6 @@ white-space: normal;
 
 .section-intro--lightblue {
     background-color: #f7fcff;
-}
-
-
-.mobile-content-p {
- 
-    text-align: justify;
-    font-size: 11px;
-    color: gray;
-   padding:0% 5% 0% 5%;
-
-}
-
-.mobile-content-title {
-    
-    font-size: 12px;
-    color: black;
-    text-align: center
-}
-.app-part-slider-content-width img{
-
-    width: 100%;
-}
-
-.mobile-content {
-    border-radius: 5px;
-    background: white;
-
 }
 
 
@@ -3034,7 +3030,6 @@ bottom: 20%;
 
 .slider {
 width:100%;
-    direction: ltr;
    position: relative
 
 
@@ -3056,7 +3051,6 @@ width:100%;
 
 .slick-slide {
   transition: all ease-in-out .3s;
-  opacity: .2;
 }
 
 .slick-active {
@@ -3146,15 +3140,7 @@ border-radius: 50%;
 		}
 	
 
-
-        .center{
-            width: 300px;
-            position: absolute!important;
-            top:110px;
-            right: 135px;
-            height:350px;
-      
-        }
+/* 
      
         @media screen and (max-width:1199px) {
             .center{
@@ -3315,10 +3301,476 @@ text-align: right;
                                                                         right: 97px;
                                                                         height:385px;
                                                                       
-                                                                    }}
+                                                                    }} */
 
 
  .dropdown-item:hover{
      background-color: transparent;
    
  }                                                                   
+
+ .mobile-content-p {
+ 
+    text-align: justify;
+    font-size: 12px;
+    color: gray;
+   padding:0% 5% 0% 5%;
+
+}
+
+.mobile-content-title {
+    
+    font-size: 12px;
+    color: black;
+    text-align: center
+}
+
+
+.mobile-content {
+    border-radius: 5px;
+    background: white;
+width: 50%;
+}
+
+
+.single-item-rtl{
+    width:195px;
+    height:350px;
+
+}
+
+.center-img{
+    width: 100%;
+}
+
+ .phone-slider__inner{
+     position: absolute;
+     top: 18%;
+     right:33%
+   
+ }
+
+
+     
+ @media screen and (max-width:1199px) {
+    .single-item-rtl{
+        width:172px;
+        height:310px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:1199px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 18%;
+            right:32%
+        }
+    }
+
+
+
+    @media screen and (max-width:1199px) {
+        .mobile-content-p {
+ 
+            text-align: justify;
+            font-size: 7px;
+            color: gray;
+           padding:0% 5% 0% 5%;
+        
+        }
+    }
+    @media screen and (max-width:1199px) {
+    .center-img{
+        width: 90%;
+   margin-right: 5%;
+    }
+}    
+
+
+     
+@media screen and (max-width:991px) {
+    .single-item-rtl{
+        width:138px;
+        height:250px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:991px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 10%;
+            right:30.5%
+        }
+    }
+
+
+
+    @media screen and (max-width:991px) {
+        .mobile-content-p {
+ 
+            text-align: justify;
+            font-size: 1px;
+            color: gray;
+           padding:0% 5% 0% 5%;
+           line-height: 9px;
+         
+        
+        }
+    }
+    
+
+    @media screen and (max-width:991px) {
+        .mobile-content-title {
+    
+            font-size: 2px;
+            color: black;
+            text-align: center
+        }
+    }
+    @media screen and (max-width:991px) {
+    .center-img{
+        width: 65%;
+   margin-right: 8%;
+    }
+}    
+
+
+
+  
+@media screen and (max-width:767px) {
+    .single-item-rtl{
+        width:185px;
+        height:350px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:767px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 18%;
+            right:32.5%
+        }
+    }
+
+
+
+    @media screen and (max-width:767px) {
+        .mobile-content-p {
+ 
+            text-align: justify;
+            font-size: 12px;
+            color: gray;
+           padding:0% 5% 0% 5%;
+           line-height: 13px;
+        
+        }
+    }
+
+
+    
+    @media screen and (max-width:767px) {
+        .mobile-content-title {
+    
+            font-size: 14px;
+            color: black;
+            text-align: center
+        }
+    }
+    @media screen and (max-width:767px) {
+    .center-img{
+        width: 100%;
+margin-right: 0;
+    }
+}    
+
+
+
+
+
+  
+@media screen and (max-width:515px) {
+    .single-item-rtl{
+        width:165px;
+        height:350px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:515px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 16%;
+            right:33%
+        }
+    }
+
+
+
+    @media screen and (max-width:515px) {
+        .mobile-content-p {
+ 
+            text-align: justify;
+            font-size: 10px;
+            color: gray;
+           padding:0% 5% 0% 5%;
+           line-height: 12px;
+        
+        }
+    }
+
+
+    
+    @media screen and (max-width:515px) {
+        .mobile-content-title {
+    
+            font-size: 14px;
+            color: black;
+            text-align: center
+        }
+    }
+    @media screen and (max-width:515px) {
+    .center-img{
+        width: 100%;
+margin-right: 0;
+    }
+}    
+
+
+
+
+
+
+
+  
+@media screen and (max-width:460px) {
+    .single-item-rtl{
+        width:160px;
+        height:300px;
+    
+    }
+    }
+
+
+    @media screen and (max-width:460px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 16%;
+            right:32%
+        }
+    }
+
+
+
+    @media screen and (max-width:460px) {
+        .mobile-content-p {
+ 
+            text-align: justify;
+            font-size: 8px;
+            color: gray;
+           padding:0% 5% 0% 5%;
+           line-height: 12px;
+        
+        }
+    }
+
+
+    
+    @media screen and (max-width:460px) {
+        .mobile-content-title {
+    
+            font-size: 10px;
+            color: black;
+            text-align: center
+        }
+    }
+    @media screen and (max-width:460px) {
+    .center-img{
+        width: 80%;
+margin-right: 5%;
+    }
+}    
+
+
+@media screen and (max-width:430px) {
+    .single-item-rtl{
+        width:150px;
+        height:290px;
+    
+    }
+    }
+
+
+
+    @media screen and (max-width:405px) {
+        .single-item-rtl{
+            width:140px;
+            height:280px;
+        
+        }
+        }
+    
+    
+        @media screen and (max-width:405px) {
+            .phone-slider__inner{
+                position: absolute;
+                top: 18%;
+                right:32%
+            }
+        }
+    
+    
+    
+        @media screen and (max-width:405px) {
+            .mobile-content-p {
+     
+                text-align: justify;
+                font-size: 5px;
+                color: gray;
+               padding:0% 5% 0% 5%;
+               line-height: 10px;
+            
+            }
+        }
+    
+    
+        
+        @media screen and (max-width:405px) {
+            .mobile-content-title {
+        
+                font-size: 5px;
+                color: black;
+                text-align: center
+            }
+        }
+        @media screen and (max-width:405px) {
+        .center-img{
+            width: 60%;
+    margin-right: 8%;
+        }
+    }    
+    
+
+
+
+
+
+
+    
+
+    @media screen and (max-width:375px) {
+        .single-item-rtl{
+            width:125px;
+            height:250px;
+        
+        }
+        }
+    
+    
+        @media screen and (max-width:375px) {
+            .phone-slider__inner{
+                position: absolute;
+                top: 18%;
+                right:33%
+            }
+        }
+    
+    
+    
+        @media screen and (max-width:375px) {
+            .mobile-content-p {
+     
+                text-align: justify;
+                font-size: 1px;
+                color: gray;
+               padding:0% 5% 0% 5%;
+               line-height: 8px;
+            
+            }
+        }
+    
+    
+        
+        @media screen and (max-width:375px) {
+            .mobile-content-title {
+        
+                font-size: 2px;
+                color: black;
+                text-align: center
+            }
+        }
+        @media screen and (max-width:375px) {
+        .center-img{
+            width: 70%;
+    margin-right: 10%;
+        }
+    }    
+
+    @media screen and (max-width:345px) {
+        .phone-slider__inner{
+            position: absolute;
+            top: 15%;
+            right:32%
+        }
+    }
+
+
+
+
+    
+
+    
+
+    @media screen and (max-width:320px) {
+        .single-item-rtl{
+            width:120px;
+            height:240px;
+        
+        }
+        }
+    
+    
+        @media screen and (max-width:320px) {
+            .phone-slider__inner{
+                position: absolute;
+                top: 15%;
+                right:31%
+            }
+        }
+    
+    
+    
+        @media screen and (max-width:320px) {
+            .mobile-content-p {
+     
+                text-align: justify;
+                font-size: 0.5%;
+                color: gray;
+               padding:0% 5% 0% 5%;
+               line-height: 6px;
+            
+            }
+        }
+    
+    
+        
+        @media screen and (max-width:320px) {
+            .mobile-content-title {
+        
+                font-size: 0.5%;
+                color: black;
+                text-align: center
+            }
+        }
+        @media screen and (max-width:320px) {
+        .center-img{
+            width: 70%;
+    margin-right: 10%;
+        }
+    }    
