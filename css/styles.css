@@ -15,9 +15,17 @@ body a{
 .left-menu-btn{
     margin-right: 20px;
 }
-.menu-part-ul{
-    min-width: 242px;
+ .menu-part-ul-design{
+    min-width: 245px;
 margin-bottom: 80px;
+}
+
+
+.menu-part-ul-design ul{
+    text-align: right;
+    padding: 0px 25px 0px 0px;
+    font-size: 14px;
+    color: lightgray;
 }
 .menu-part-ul ul {
     text-align: right;
@@ -25,7 +33,9 @@ margin-bottom: 80px;
     font-size: 14px;
     color: lightgray;
 }
-
+.header-menu-icons-hover:hover{
+color: #fdc827;
+}
 .header-menu-image-back {
     background-color: rgb(241, 240, 240);
     width: 102%;
@@ -1158,7 +1168,8 @@ width: 0;
 height: 0;
 border-top: 30px solid white;
 border-right: 30px solid transparent;
-/* margin-right: 250px; */
+ margin-left: 10%;
+
 } 
 
 
@@ -3009,7 +3020,7 @@ bottom: 20%;
 
 
 
-    .top {
+    .top-to-service-section-btn {
         background-color:#fdc827;
         width:40px;
         height: 40px;
@@ -3019,10 +3030,27 @@ bottom: 20%;
         justify-content: center;
         align-items: center;
         position: absolute;
-       bottom:20px ;
+       bottom:0% ;
         left: 49%;
         z-index: 100;
       }
+
+
+      @media screen and (min-width:1000px) {
+      .top-to-service-section-btn {
+        background-color:#fdc827;
+        width:40px;
+        height: 40px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+       bottom:3% ;
+        left: 49%;
+        z-index: 100;
+      }}
 .fa-arrow-down{
 
     font-size: 20px;
@@ -3030,7 +3058,8 @@ bottom: 20%;
 
 .slider {
 width:100%;
-   position: relative
+   position: relative;
+   direction: ltr;
 
 
 }
@@ -3774,3 +3803,43 @@ margin-right: 5%;
     margin-right: 10%;
         }
     }    
+
+
+
+    .megamenu__overlay.is-active {
+        opacity: 1;
+        pointer-events: all!important;
+    }
+    .megamenu__overlay {
+        position: fixed;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        content: "";
+        background: rgba(55,172,251,.8);
+        opacity: 0;
+        z-index: 199;
+        -webkit-transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
+        -moz-transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
+        -ms-transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
+        transition: opacity .2s cubic-bezier(.215,.61,.355,1) 0s;
+        pointer-events: none;
+    }
+
+
+    .badge {
+        display: inline-block;
+        position: absolute;
+        left:5%;
+      top: 35%;
+    }
+
+    .mobile-popular-blue-part {
+        background-color: rgb(46, 158, 239);
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        font-size: 10px;
+    }
