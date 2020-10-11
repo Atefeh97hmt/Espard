@@ -3234,17 +3234,15 @@ text-align: right;
 
   .slick-prev{
 top: 120%!important;
-left: 45%!important;
-border: 1px solid white!important;
-border-radius: 50%;
+left: 46%!important;
+
 
 
   }
   .slick-next{
     top: 120%!important;
-    right: 45%!important; 
-    border: 1px solid white!important;
-border-radius: 50%;
+    right: 46%!important; 
+
   }
 
   
@@ -3860,7 +3858,17 @@ margin-right: 5%;
 
     
 
-    
+    .slick-prev::before {
+        content: "→";
+   border: 1px solid white;
+   border-radius: 50%;
+
+    }
+.slick-next::before {
+    content: "→";
+    border: 1px solid white;
+    border-radius: 50%;
+}
 
     @media screen and (max-width:320px) {
         .single-item-slider{
