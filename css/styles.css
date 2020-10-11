@@ -72,7 +72,7 @@ color: #fdc827;
     color: white;
     font-size: 10px;
 }
-.flex-x{
+.menu-side-btn-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -303,7 +303,7 @@ top:10px;
     border-radius: 50%;
     overflow: hidden;
     background-color: #fff;
-    box-shadow: 12px 12px 30px rgba(0, 0, 0, .1);
+   
 }
 
 .card-a-img img {
@@ -677,6 +677,7 @@ top:10px;
     height: 100%;
     opacity: 0.9;
     visibility: visible;
+   
 }
 
 .header-logo {
@@ -1494,12 +1495,14 @@ font-size: 13px;
     color: rgb(163, 163, 163);
 }
 
-.navbar{
+.sticky-top{
 background-color:#f7fcff;
 position: fixed; 
 top: 0; 
 width: 100%; 
+
 }
+
 
 .section-image {
     position: relative;
@@ -2278,7 +2281,7 @@ bottom: 20%;
     } 
     @media screen and (min-width:768px) {
     .section-white-circle::after{
-     bottom:-7px;
+     bottom:-8px;
 
     } }
 
@@ -2429,7 +2432,7 @@ left: 46%!important;
 			border: none!important;
 			border-radius: 100%!important;
 			background-color: rgba(0, 0, 0, .1)!important;
-			/* text-indent: -9999px!important; */
+			 text-indent: 9999px!important; 
 		}
 	
         .slick-dots li.slick-active button {
@@ -2950,7 +2953,7 @@ margin-right: 5%;
 
 
 
-    /* .state-menu .sidemenu__overlay {
+   .state-menu .sidemenu__overlay {
         opacity: 1;
         pointer-events: all!important;
     }
@@ -2972,7 +2975,7 @@ margin-right: 5%;
         pointer-events: none;
         overflow: hidden;
     }
- */
+
 
 
 
@@ -2993,7 +2996,7 @@ margin-right: 5%;
 
 
     .header-menu-li-hover li:hover{
-        margin-right: 5px;
+        margin-right: 4px;
         
     }
 
@@ -3028,3 +3031,14 @@ margin-right: 5%;
  .sidemenu-collaped a:hover{
     color: #239df0;
 }
+
+
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed; 
+/* top: 4%; */
+
+  }
+  

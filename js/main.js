@@ -47,13 +47,8 @@ $(document).ready(function () {
 	
 	  });
 
-
-
+	
   });
-
-
-
-
 
 
 
