@@ -37,7 +37,7 @@ $(document).ready(function () {
 			}
 		  ]
 	});
-	$('.single-item-rtl').slick({
+	$('.single-item-slider').slick({
 		ltr: true,
 		dots: true,
 			infinite: true,
@@ -53,7 +53,9 @@ $(document).ready(function () {
 
 
 
-  	  
+
+
+
 
   
 
