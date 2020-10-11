@@ -46,7 +46,7 @@ color: #fdc827;
 .new-part {
     background-color: tomato;
     padding: 2px 8px 2px 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
     font-size: 10px;
    
@@ -73,7 +73,7 @@ padding: 0px 1px 0px 1px;
 .popular-blue-part {
     background-color: rgb(46, 158, 239);
     padding: 2px 8px 2px 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
     font-size: 10px;
 }
@@ -291,6 +291,9 @@ top:10px;
     background-color: rgb(237, 248, 255);
     color: rgb(46, 158, 239);
 }
+
+
+
 
 .section-services-image {
     margin: 0 auto 12px;
@@ -773,7 +776,7 @@ top:10px;
     text-align: center;
     font-weight: 600;
     width: 100%;
-    font-size: 24px;
+    font-size: 30px;
     color: rgb(109, 109, 109);
     padding-top: 55px;
 }
@@ -2487,7 +2490,7 @@ width: 50%;
  .phone-slider__inner{
      position: absolute;
      top: 18%;
-     right:32.5%
+     right:32.8%
    
  }
 
@@ -2543,7 +2546,7 @@ width: 50%;
     @media screen and (max-width:991px) {
         .phone-slider__inner{
             position: absolute;
-            top: 10%;
+            top: 12%;
             right:30.5%
         }
     }
@@ -2594,7 +2597,7 @@ width: 50%;
     @media screen and (max-width:767px) {
         .phone-slider__inner{
             position: absolute;
-            top: 18%;
+            top: 19%;
             right:32.5%
         }
     }
@@ -2702,7 +2705,7 @@ margin-right: 0;
     @media screen and (max-width:460px) {
         .phone-slider__inner{
             position: absolute;
-            top: 16%;
+            top: 17%;
             right:32%
         }
     }
@@ -2881,7 +2884,7 @@ margin-right: 5%;
     @media screen and (max-width:320px) {
         .single-item-slider{
             width:120px;
-            height:240px;
+            height:220px;
         
         }
         }
@@ -2890,7 +2893,7 @@ margin-right: 5%;
         @media screen and (max-width:320px) {
             .phone-slider__inner{
                 position: absolute;
-                top: 15%;
+                top: 15.5%;
                 right:31%
             }
         }
@@ -3004,7 +3007,9 @@ margin-right: 5%;
         margin-right: 4px;
         
     }
-
+     .each-part-title-a-color:hover{
+        color: #585858;
+    } 
     .left-menu-li-margin-top{
         margin-top: 10%;
     }
