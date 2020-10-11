@@ -633,7 +633,7 @@ top:10px;
 
 .copyright-text {
     font-size: 16px;
-    color: gray
+    color: #5b5b5b
 }
 
 .social {
@@ -676,20 +676,7 @@ top:10px;
     width: 180px
 }
 
-/* .header-style {
-    min-height: 700px;
-    background-color: rgb(237, 248, 255);
-    border-radius: 0 0 50% 50% / 0 0 85% 85%;
-} */
 
-/***
-  -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-    margin-top: 0;
-    z-index: 11;
-    width: 14em;
-    height: 4.5em;
-    */
 
 .header-left-div {
     position: absolute;
@@ -1227,13 +1214,6 @@ border-right: 30px solid transparent;
 } 
 
 
-
-
-
-
-
-
-
 .slider-title {
     color: white;
     font-size: 2em;
@@ -1320,32 +1300,6 @@ border-right: 30px solid transparent;
 }
 
 
-/* .intro__circle {
-    transition: none!important;
-}
-
-.intro__circle {
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.intro__circle:nth-child(1) {
-    z-index: 1;
-    background-color: #33abfc;
-    width: 55.6em;
-    height: 55.6em;
-    margin-left: -27.8em;
-    top: calc(100% - 14.2em);
-    -ms-transform: translateY(15em);
-    transform: translateY(15em);
-}
-
-.intro__circle {
-    position: absolute;
-    left: 50%;
-    border-radius: 50%;
-    transition: transform .7s cubic-bezier(.86, 0, .07, 1);
-} */
 
 .card-c-title {
     font-size:  1.7em;
@@ -1484,134 +1438,6 @@ font-size: 13px;
         display: none;
     }
 }
-/* 
-@media screen and (max-width:1200px) {
-    .sign {
-        margin-right: 200px;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .sign {
-        margin-right: 130px;
-    }
-}
-
-@media screen and (max-width:770px) {
-    .sign {
-        margin-right: 80px;
-    }
-} */
-/* 
-@media screen and (max-width:770px) {
-    .slider-part-background {
-        background-image: url(../image/background_3.png);
-        background-color: rgb(61, 175, 250);
-        background-size: cover;
-     
-  
-    }
-}
-
-@media screen and (max-width:770px) {
-    .carousel-control-prev {
-        position: absolute;
-        top: 115%!important;
-        right: 43%;
-    }
-}
-
-@media screen and (max-width:770px) {
-    .carousel-control-next {
-        position: absolute;
-        top: 115%!important;
-        right: 37%;
-    }
-} */
-
-/* @media screen and (max-width:578px) {
-    .sign {
-        margin-right: 420px;
-    }
-} */
-/* 
-@media screen and (max-width:578px) {
-    .slider-part-background {
-        background-image: url(../image/background_3.png);
-        background-color: rgb(61, 175, 250);
-        background-size: cover;
-        min-height: 1000px;
-    }
-}
-
-@media screen and (max-width:578px) {
-    .carousel-control-prev {
-        position: absolute;
-        top: 105%!important;
-        right: 43%;
-    }
-}
-
-@media screen and (max-width:578px) {
-    .carousel-control-next {
-        position: absolute;
-        top: 105%!important;
-        right: 37%;
-    }
-} */
-
-/* @media screen and (max-width:540px) {
-    .sign {
-        margin-right: 350px;
-    }
-}
-
-@media screen and (max-width:480px) {
-    .sign {
-        margin-right: 250px;
-    }
-} */
-/* 
-@media screen and (max-width:480px) {
-    .slider-part-background {
-        background-image: url(../image/background_3.png);
-        background-color: rgb(61, 175, 250);
-        background-size: cover;
-        min-height: 1050px;
-    }
-}
-
-@media screen and (max-width:480px) {
-    .carousel-control-prev {
-        position: absolute;
-        top: 105%!important;
-        right: 43%;
-    }
-}
-
-@media screen and (max-width:480px) {
-    .carousel-control-next {
-        position: absolute;
-        top: 105%!important;
-        right: 37%;
-    }
-} */
-
-/* @media screen and (max-width:362px) {
-    .sign {
-        margin-right: 200px;
-    }
-} */
-/* 
-@media screen and (max-width:362px) {
-    .slider-part-background {
-        background-image: url(../image/background_3.png);
-        background-color: rgb(61, 175, 250);
-        background-size: cover;
-        min-height: 1130px;
-    }
-} */
-
 
 .search {
     position: relative;
@@ -1661,34 +1487,12 @@ top: 0;
 width: 100%; 
 }
 
-/* .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    background-color: white;
-white-space: normal;
-    } */
-
-/* @media screen and (max-width:1255px) {
-        .dropdown-menu{
-    width:300px;
-  
-    }
-
-    } */
-
 .section-image {
     position: relative;
 }
 
 .section-circle {
-    /* position: absolute;
-    left: 0;
-    z-index: 1;
-    background: red; 
-    width: 100%;
-    height: 100%; */
+
 
     position: absolute;
     left: 0;
@@ -1699,15 +1503,7 @@ white-space: normal;
 }
 
 .header-intro {
-    /* position: absolute;
-    left: 50%;
-     background: yellow; 
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    bottom:30%;
-    width: 300px;
-    height: 450px;
-    z-index: 4 */
+
 
     position: absolute;
     left: 50%;
@@ -1728,20 +1524,6 @@ white-space: normal;
     /* transition: transform .7s cubic-bezier(.86,0,.07,1); */
 
 }
-/* .intro__circle:nth-child(1) {
-    z-index: 1;
-    background-color: #33abfc;
-    width: 55.6em;
-    height: 55.6em;
-    margin-left: -27.8em;
-    top: calc(100% - 4em);
-    -ms-transform: translateY(15em);
-    transform: translateY(-15em);
-  
- 
-} */
-
-
 
 
 .section-intro {
@@ -1767,45 +1549,6 @@ white-space: normal;
 .section-intro--full {
     min-height: 700px!important;
 }}
-
-/* 
-.intro__circle:nth-child(2) {
-    z-index: 2;
-    width: 53.6em;
-    height: 47.14em;
-    margin-left: -26.8em;
-    background-color: #27a0f2;
-    top: calc(100% - 3em);
-    -ms-transform: translateY(11em);
-    transform: translateY(-13em);
-    transition-delay: .1s;
-    
-   
-}
-.intro__circle:nth-child(3) {
-    z-index: 4;
-    background-color: #158fe1;
-    width: 53.6em;
-    height: 43.6em;
-    margin-left: -26.8em;
-    top: calc(100% - 2em);
-    -ms-transform: translateY(7em);
-    transform: translateY(-11em);
-    transition-delay: .2s;
-   
-}
-.intro__circle:nth-child(4) {
-    z-index: 5;
-    background-color: #0d85d6;
-    width: 50em;
-    height: 35.7em;
-    margin-left: -25em;
-    top: calc(100% - 1em);
-    -ms-transform: translateY(5em);
-    transform: translateY(-10em);
-  
-} */
-
 
 .header-intro-circle:nth-child(1) {
     z-index: 1;
@@ -1874,24 +1617,7 @@ white-space: normal;
     -ms-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;  */
 }
 
-/* .intro__phone {
-    position: absolute;
-    width: 220px;
-    height: 400px;
-    top: 85px;
-    left: 50%;
-    z-index: 3;
-    margin-left: -110px;
-    -ms-transform: translateY(105%);
-    transform: translateY(105%);
-    background-color: #333;
-    transition: transform 1s cubic-bezier(.86,0,.07,1) .3s; 
-     -webkit-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;
-    -moz-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;
-    -ms-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;
-    -moz-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;
-    -ms-transition: transform 1s cubic-bezier(.86,0,.07,1) .3s; 
-} */
+
 
 .header-intro-phone img {
     max-width: 100%;
@@ -1908,574 +1634,6 @@ white-space: normal;
     background-color: #f7fcff;
 }
 
-
-
-
-
-/*
-
-@media screen and (max-width:362px) {
-    .carousel-control-prev {
-        position: absolute;
-        top: 105%!important;
-        right: 44%;
-    }
-}
-
-@media screen and (max-width:362px) {
-    .carousel-control-next {
-        position: absolute;
-        top: 105%!important;
-        right: 36%;
-    }
-}
-
-@media screen and (max-width:325px) {
-    .sign {
-        display: none;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .carousel-control-prev {
-        position: absolute;
-        top: 120%;
-        left: 39%;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .carousel-control-next {
-        position: absolute;
-        top: 120%;
-        left: 39%;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 11px;
-        color: black;
-        width: 40%;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .mobile-content-title {
-        font-size: 15px;
-        color: black;
-        width: 40%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .mobile-content {
-        position: absolute;
-        top: 60px;
-        right: 185px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .app-part-slider-content-width img {
-        width: 120px;
-        text-align: center;
-        margin-left: 35px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .circle-next-prev {
-        display: none;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 1px;
-        color: black;
-        width: 45%;
-        line-height: 0.7rem
-    }
-}
-
-@media screen and (max-width:990px) {
-    .mobile-content-title {
-        font-size: 12px;
-        color: black;
-        width: 55%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:990px) {
-    .mobile-content {
-        position: absolute;
-        top: 40px;
-        right: 130px;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .app-part-slider-content-width img {
-        width: 90px;
-        text-align: center;
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width:765px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 15px;
-        color: black;
-        width: 42%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:765px) {
-    .mobile-content-title {
-        font-size: 20px;
-        color: black;
-        width: 42%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:765px) {
-    .mobile-content {
-        position: absolute;
-        top: 60px;
-        right: 195px;
-    }
-}
-
-@media screen and (max-width:765px) {
-    .app-part-slider-content-width img {
-        width: 170px;
-        text-align: center;
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width:535px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 12px;
-        color: black;
-        width: 42%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:535px) {
-    .mobile-content-title {
-        font-size: 15px;
-        color: black;
-        width: 42%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:535px) {
-    .mobile-content {
-        position: absolute;
-        top: 70px;
-        right: 195px;
-    }
-}
-
-@media screen and (max-width:535px) {
-    .app-part-slider-content-width img {
-        width: 120px;
-        text-align: center;
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 12px;
-        color: black;
-        width: 42%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .mobile-content-title {
-        font-size: 15px;
-        color: black;
-        width: 42%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:500px) {
-    .mobile-content {
-        position: absolute;
-        top: 70px;
-        right: 180px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .app-part-slider-content-width img {
-        width: 120px;
-        text-align: center;
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width:460px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 8px;
-        color: black;
-        width: 45%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:460px) {
-    .mobile-content-title {
-        font-size: 10px;
-        color: black;
-        width: 45%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:460px) {
-    .mobile-content {
-        position: absolute;
-        top: 70px;
-        right: 160px;
-    }
-}
-
-@media screen and (max-width:460px) {
-    .app-part-slider-content-width img {
-        width: 120px;
-        text-align: center;
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 6px;
-        color: black;
-        width: 45%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .mobile-content-title {
-        font-size: 10px;
-        color: black;
-        width: 45%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:400px) {
-    .mobile-content {
-        position: absolute;
-        top: 40px;
-        right: 140px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .app-part-slider-content-width img {
-        width: 100px;
-        text-align: center;
-        margin-left: 45px;
-    }
-}
-
-@media screen and (max-width:370px) {
-    .mobile-content-p {
-        text-align: center;
-        font-size: 1px;
-        color: black;
-        width: 45%;
-        line-height: 1rem;
-    }
-}
-
-@media screen and (max-width:370px) {
-    .mobile-content-title {
-        font-size: 8px;
-        color: black;
-        width: 45%;
-        text-align: center
-    }
-}
-
-@media screen and (max-width:370px) {
-    .mobile-content {
-        position: absolute;
-        top: 25px;
-        right: 130px;
-    }
-}
-
-@media screen and (max-width:370px) {
-    .app-part-slider-content-width img {
-        width: 80px;
-        text-align: center;
-        margin-left: 60px;
-    }
-} */
-
-/* 
-
-
-@media screen and (max-width:1200px) {
-  
-.mobile-content {
-    position: absolute;
-    top:80px;
-    right: 175px;
-    border-radius: 5px;
-    background: white;
-width: 130px;
-height: 220px;
-font-size: 10px;
-overflow: hidden;
-}
-    }
-
-
-
-@media screen and (max-width:991px) {
-  
-.mobile-content {
-    position: absolute;
-    top:55px;
-    right: 135px;
-    border-radius: 5px;
-    background: white;
-width: 90px;
-height: 165px;
-font-size: 10px;
-overflow: hidden;
-}
-    }
-
-
-    @media screen and (max-width:766px) {
-  
-        .mobile-content {
-            position: absolute;
-            top: 90px;
-            right: 195px;
-            border-radius: 5px;
-            background: white;
-        width: 150px;
-        height: 250px;
-        overflow: hidden;
-        
-        }
-            }
-        
-        
-        
-    @media screen and (max-width:599px) {
-  
-        .mobile-content {
-            position: absolute;
-            top: 90px;
-            right: 195px;
-            border-radius: 5px;
-            background: white;
-        width: 150px;
-        height: 255px;
-        overflow: hidden;
-        
-        }
-            }
-   
-
-
-       
-            @media screen and (max-width:575px) {
-  
-                .mobile-content {
-                    position: absolute;
-                    top: 98px;
-                    right: 210px;
-                    border-radius: 5px;
-                    background: white;
-                width: 152px;
-                height: 258px;
-                overflow: hidden;
-                
-                }
-                    }
-
-                    @media screen and (max-width:565px) {
-  
-                        .mobile-content {
-                            position: absolute;
-                            top: 98px;
-                            right: 205px;
-                            border-radius: 5px;
-                            background: white;
-                        width: 152px;
-                        height: 258px;
-                        overflow: hidden;
-                        
-                        }
-                            }
-
-
-                            @media screen and (max-width:565px) {
-  
-                                .mobile-content {
-                                    position: absolute;
-                                    top: 98px;
-                                    right: 200px;
-                                    border-radius: 5px;
-                                    background: white;
-                                width: 152px;
-                                height: 258px;
-                                overflow: hidden;
-                                
-                                }
-                                    }
-        
-
-                            @media screen and (max-width:555px) {
-  
-                                .mobile-content {
-                                    position: absolute;
-                                    top: 90px;
-                                    right: 195px;
-                                    border-radius: 5px;
-                                    background: white;
-                                width: 150px;
-                                height: 250px;
-                                overflow: hidden;
-                                
-                                }
-                                    }
-
-
-                                    @media screen and (max-width:555px) {
-  
-                                        .mobile-content {
-                                            position: absolute;
-                                            top: 90px;
-                                            right: 195px;
-                                            border-radius: 5px;
-                                            background: white;
-                                        width: 150px;
-                                        height: 250px;
-                                        overflow: hidden;
-                                        
-                                        }
-                                            }
-
-                                    @media screen and (max-width:535px) {
-  
-                                        .mobile-content {
-                                            position: absolute;
-                                            top: 90px;
-                                            right: 192px;
-                                            border-radius: 5px;
-                                            background: white;
-                                        width: 150px;
-                                        height: 250px;
-                                        overflow: hidden;
-                                        
-                                        }
-                                            }
-
-
-                                            @media screen and (max-width:525px) {
-  
-                                                .mobile-content {
-                                                    position: absolute;
-                                                    top: 90px;
-                                                    right: 192px;
-                                                    border-radius: 5px;
-                                                    background: white;
-                                                width: 140px;
-                                                height: 240px;
-                                                overflow: hidden;
-                                                
-                                                }
-                                                    }
-                                                    
-                                            @media screen and (max-width:515px) {
-  
-                                                .mobile-content {
-                                                    position: absolute;
-                                                    top: 90px;
-                                                    right: 192px;
-                                                    border-radius: 5px;
-                                                    background: white;
-                                                width: 130px;
-                                                height: 230px;
-                                              
-                                                
-                                                }
-                                                    }
-                                                    @media screen and (max-width:505px) {
-  
-                                                        .mobile-content {
-                                                            position: absolute;
-                                                            top: 90px;
-                                                            right: 192px;
-                                                            border-radius: 5px;
-                                                            background: white;
-                                                        width: 120px;
-                                                        height: 220px;
-                                                      
-                                                        
-                                                        }
-                                                            }
-                                                            @media screen and (max-width:495px) {
-  
-                                                                .mobile-content {
-                                                                    position: absolute;
-                                                                    top: 90px;
-                                                                    right: 188px;
-                                                                    border-radius: 5px;
-                                                                    background: white;
-                                                                width: 120px;
-                                                                height: 220px;
-                                                              
-                                                                
-                                                                }
-                                                                    }
-
-
-                                                                    @media screen and (max-width:495px) {
-  
-                                                                        .mobile-content {
-                                                                            position: absolute;
-                                                                            top: 80px;
-                                                                            right: 179px;
-                                                                            border-radius: 5px;
-                                                                            background: white;
-                                                                        width: 120px;
-                                                                        height: 220px;
-                                                                      
-                                                                        
-                                                                        }
-                                                                            }
-                                              */
 
 .list-group{
     padding-right:0;
@@ -2517,12 +1675,6 @@ overflow: hidden;
 
 
 
-
-/* .header-title-part h4 {
-    opacity: 1;
-    -ms-transform: translateY(0)!important;
-    transform: translateY(0)!important;
-} */
 .header-title-sub {
     opacity: 1;
 }
@@ -2854,8 +2006,17 @@ padding-bottom: 50px;
     color: #333;
     border-radius: 30px;
     width: 200px;
+  
     
 }
+
+@media screen and (max-width:332px) {
+.btn-orange {
+    margin-bottom: 1.5%;
+    
+}}
+
+
 
 .btn--orange:hover {
     background-color: rgb(67, 67, 69);
@@ -2889,15 +2050,9 @@ padding-bottom: 50px;
 
 
 
-
-
 .nav-pills{
     padding: 0%;
 }
-
-
-
-
 
 
 .scroll{
@@ -3060,20 +2215,7 @@ text-align: center;
     top: 400px !important;
     right: -40px;
 }}
-/* 
-@media screen and (max-width:1200px) {
-    .popular-blue-part {
-     margin-right: 0;
-     padding: 2px;
-     font-size:3px;
-    }} */
 
-    /* @media screen and (max-width:1200px) {
-        .new-part {
-         margin-right: 0;
-         padding: 2px;
-         font-size:3px;
-        }} */
 .angle-left-blue{
 
     font-size: 12px;
@@ -3086,12 +2228,7 @@ text-align: center;
   margin-right: 3%;
 }
 
-        /* .fa-angle-left-blue{
-color: #239df0;
-width: 100%;
-position: absolute;
-left: 60px;
-        } */
+
 
 .submenu-img{
  width: 40px;
@@ -3122,7 +2259,11 @@ bottom: 20%;
         align-items: flex-end;
 
     } 
+    @media screen and (min-width:768px) {
+    .section-white-circle::after{
+     bottom:-7px;
 
+    } }
 
 
     .top-to-service-section-btn {
@@ -3272,170 +2413,6 @@ left: 46%!important;
 			background-color: #0d85d6!important;
 		}
 	
-
-/* 
-     
-        @media screen and (max-width:1199px) {
-            .center{
-                width: 270px;
-                position: absolute!important;
-                top:83px;
-                right: 105px;
-                height:300px;
-            }}
-
-            @media screen and (max-width:1199px) {
-                .center-img{
-                    width: 80%;
-                margin-left: 10px;
-                 
-                }}
-    
-            @media screen and (max-width:1199px) {
-                .mobile-content-p{
-               font-size: 10px;
-                 
-                }}
-
-
-                @media screen and (max-width:991px) {
-                    .center{
-                        width: 235px;
-                        position: absolute!important;
-                        top:57px;
-                        right: 62px;
-                        height:250px;
-                      
-                    }}
-        
-                    @media screen and (max-width:991px) {
-                        .center-img{
-                            width: 70%;
-                        margin-left: 10px;
-                         
-                        }}
-            
-                    @media screen and (max-width:991px) {
-                        .mobile-content-p{
-                       font-size:1px;
-                       line-height: 9px;
-text-align: right;
-                         
-                        }}
-                        @media screen and (max-width:991px) {
-                            .mobile-content-title{
-                           font-size:5px;
-                             
-                            }}
-
-
-
-                            @media screen and (max-width:767px) {
-                                .center{
-                                    width: 300px;
-                                    position: absolute!important;
-                                    top:100px;
-                                    right: 120px;
-                                    height:300px;
-                                  
-                                }}
-                    
-                                @media screen and (max-width:767px) {
-                                    .center-img{
-                                        width: 100%;
-                                  
-                                    }}
-                        
-                                @media screen and (max-width:767px) {
-                                    .mobile-content-p{
-                                        text-align: justify;
-                                        font-size: 11px;
-                                        color: gray;
-                                        line-height: 15px;
-                                 
-            
-                                     
-                                    }}
-                                    @media screen and (max-width:767px) {
-                                        .mobile-content-title{
-                                       font-size:12px;
-                                         
-                                        }}
-
-
-
-                                        @media screen and (max-width:575px) {
-                                            .center{
-                                                width: 300px;
-                                                position: absolute!important;
-                                                top:100px;
-                                                right: 137px;
-                                                height:385px;
-                                              
-                                            }}
-                                
-                                            @media screen and (max-width:575px) {
-                                                .center-img{
-                                                    width: 100%;
-                                              
-                                                }}
-                                    
-                                            @media screen and (max-width:575px) {
-                                                .mobile-content-p{
-                                                    text-align: justify;
-                                                    font-size: 13px;
-                                                    color: gray;
-                                                    line-height: 15px;
-                                             
-                        
-                                                 
-                                                }}
-                                                @media screen and (max-width:575px) {
-                                                    .mobile-content-title{
-                                                   font-size:12px;
-                                                     
-                                                    }}
-
-                                                    @media screen and (max-width:565px) {
-                                                        .center{
-                                                            width: 300px;
-                                                            position: absolute!important;
-                                                            top:100px;
-                                                            right: 127px;
-                                                            height:385px;
-                                                          
-                                                        }}
-
-                                                        @media screen and (max-width:555px) {
-                                                            .center{
-                                                                width: 300px;
-                                                                position: absolute!important;
-                                                                top:100px;
-                                                                right: 117px;
-                                                                height:385px;
-                                                              
-                                                            }}
-
-                                                            @media screen and (max-width:545px) {
-                                                                .center{
-                                                                    width: 300px;
-                                                                    position: absolute!important;
-                                                                    top:100px;
-                                                                    right: 107px;
-                                                                    height:385px;
-                                                                  
-                                                                }}
-
-                                                                @media screen and (max-width:535px) {
-                                                                    .center{
-                                                                        width: 300px;
-                                                                        position: absolute!important;
-                                                                        top:100px;
-                                                                        right: 97px;
-                                                                        height:385px;
-                                                                      
-                                                                    }} */
-
 
  .dropdown-item:hover{
      background-color: transparent;
