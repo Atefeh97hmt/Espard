@@ -43,8 +43,8 @@ $(document).ready(function () {
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 900
-	
+			speed: 900,
+	arrows:false
 	  });
 
 	
