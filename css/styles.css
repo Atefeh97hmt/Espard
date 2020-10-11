@@ -1660,11 +1660,11 @@ width: 100%;
     border-radius: 5px;
 }
 
-
+/* 
 .list-group-item:active{
     background-color:#239df0;
 
-}
+} */
  .header-title-wrap {
     position: absolute;
     width: 100%;
@@ -2922,7 +2922,7 @@ margin-right: 5%;
     margin-right: 1%;
 }
 
-     /* .megamenu__overlay.is-active {
+     .megamenu__overlay.is-active {
         opacity: 1;
         pointer-events: all!important;
     }
@@ -2945,12 +2945,12 @@ margin-right: 5%;
     
     } 
 
- */
 
 
 
 
-    .state-menu .sidemenu__overlay {
+
+    /* .state-menu .sidemenu__overlay {
         opacity: 1;
         pointer-events: all!important;
     }
@@ -2972,7 +2972,7 @@ margin-right: 5%;
         pointer-events: none;
         overflow: hidden;
     }
-
+ */
 
 
 
