@@ -1951,6 +1951,7 @@ background:rgba(78, 77, 80, 0.1)
     font-size: 22px;
 padding-top: 20px;
 padding-bottom: 50px;
+color: #585858;
   
 
 }
@@ -2032,10 +2033,10 @@ padding-bottom: 50px;
 
 
 
-.btn--orange:hover {
+/* .btn--orange:hover {
     background-color: rgb(67, 67, 69);
     color: white
-}
+} */
 
 .btn--gray {
     background-color: #333;
@@ -2044,7 +2045,9 @@ padding-bottom: 50px;
     border-radius: 30px;
     width: 200px;
 }
-
+.btn--gray:hover{
+  color: white;
+}
 
 @media screen and (max-width:991px) {
     .header-right-div{
