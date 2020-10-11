@@ -1185,6 +1185,72 @@ top:10px;
     }
 }
 
+
+@media screen and (max-width:425px) {
+    #pandol {
+        width: 8px;
+        position: absolute;
+        top: 65px;
+        right: 115px;
+        animation: mymove 2s ease-in-out 0s infinite;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #tel_hand {
+        width: 35px;
+        position: absolute;
+        top: 100px;
+        left:45px;
+        animation: ring 0.2s ease-in-out 0s infinite;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    #pandol {
+        width: 7px;
+        position: absolute;
+        top: 46px;
+        right: 100px;
+        animation: mymove 2s ease-in-out 0s infinite;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #tel_hand {
+        width: 30px;
+        position: absolute;
+        top: 80px;
+        left:38px;
+        animation: ring 0.2s ease-in-out 0s infinite;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    #pandol {
+        width: 7px;
+        position: absolute;
+        top: 30px;
+        right: 85px;
+        animation: mymove 2s ease-in-out 0s infinite;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #tel_hand {
+        width: 25px;
+        position: absolute;
+        top:55px;
+        left:32px;
+        animation: ring 0.2s ease-in-out 0s infinite;
+    }
+}
+
+
+
+
 .card-style {
     border: 2px solid white;
     background-color: white;
