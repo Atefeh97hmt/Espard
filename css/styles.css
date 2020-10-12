@@ -2028,7 +2028,7 @@ padding-top: 20px;
 padding-bottom: 50px;
 color: #585858;
   
-
+margin-bottom: 25px;
 }
  .phone {
     display: flex;
@@ -2071,11 +2071,12 @@ color: #585858;
 }
 .mobile-menu{
     width: 280px;
-  
-    display: flex;
+    height: 100vh;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: white;
+    justify-content: center;*/
+    background-color: white; 
+position: absolute;
 
 }
 
@@ -2148,7 +2149,7 @@ color: #585858;
 
 
 .scroll{
-    height:380px;
+    height:470px;
     width:280px;
     border:1px solid #ccc;
     overflow-y:scroll;
@@ -3115,7 +3116,8 @@ margin-right: 5%;
     margin-right: 0;
     margin-left: 0;
     width: 0;
-    height: 0;
+    height: 100vh;
+    margin-bottom: 30px;
     /* background:rgba(78, 77, 80, 0.1) */
     }
 
@@ -3125,7 +3127,8 @@ margin-right: 5%;
 height: 0%;
 width:0%;
 top: 0%;
-/* position: fixed;  */
+position: fixed;
+
 /* top: 4%; */
 
   }
@@ -3161,7 +3164,7 @@ top: 0%;
   @media all and (max-width:990px) {  
     .navbar-collapse:after{
         content: ''; 
-        top: 14.1%;
+        top:0;
         right: 0;
         bottom: 0;
         left: 0;
@@ -3172,7 +3175,7 @@ top: 0%;
         pointer-events: none;
     }
     .navbar-collapse.show .sidenav{
-      position:relative;
+      /* position:relative; */
       z-index:12;
     }
     .navbar-collapse.show:after{
