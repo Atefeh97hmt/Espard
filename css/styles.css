@@ -3244,15 +3244,34 @@ background-color: #158fe1;
     font-size: 25px;
     position: absolute;
     top: 122%;
-    left: 46%;
+    left: 47%;
     color: white;
     opacity: .5;
+    font-size:22px ;
 }
 .fa-arrow-circle-right {
     font-size: 25px;
     position: absolute;
     top: 122%;
-    right: 46%;
+    right: 47%;
     color: white;
     opacity: .5;
+    font-size:22px ;
 }
+
+
+
+  
+@media screen and (max-width:991px) {
+    .fa-arrow-circle-left {
+        top: 122%;
+        left: 45%;
+    }}
+      
+@media screen and (max-width:991px) {
+    .fa-arrow-circle-right {
+        top: 122%;
+        right:45% ;
+    }}
+
+    
