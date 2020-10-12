@@ -3222,7 +3222,12 @@ color: #158fe1;
 }
 
 
+.menu-click-back:active{
 
+color: white;
+background-color: #158fe1;
+
+}
 
 /* 
 .nav-link[data-toggle].collapsed:before {
