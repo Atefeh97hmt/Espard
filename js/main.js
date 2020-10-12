@@ -16,6 +16,9 @@ $(document).ready(function () {
 		autoplay: true,
 		autoplaySpeed: 3000,
 		speed: 900,
+			  
+		nextArrow: '<i class="fa fa-arrow-circle-right"></i>',
+		prevArrow: '<i class="fa fa-arrow-circle-left"></i>',
 		responsive: [
 			{
 			  breakpoint: 768,
@@ -36,7 +39,9 @@ $(document).ready(function () {
 			  }
 			}
 		  ]
+		  
 	});
+	
 	$('.single-item-slider').slick({
 		ltr: true,
 		dots: true,
@@ -47,7 +52,8 @@ $(document).ready(function () {
 	arrows:false
 	  });
 
-	
+
+
   });
 
 
@@ -55,12 +61,12 @@ $(document).ready(function () {
   
 
 
-  var modal = document.getElementById('navbarSupportedContent');
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-	if (event.target == modal) {
-	  modal.style.display = "none";
-	}
-  }
+//   var modal = document.getElementById('navbarSupportedContent');
+//   // When the user clicks anywhere outside of the modal, close it
+//   window.onclick = function(event) {
+// 	if (event.target == modal) {
+// 	  modal.style.display = "none";
+// 	}
+//   }
 
 
