@@ -3137,7 +3137,7 @@ position: fixed;
 /***************************** menu style ********************/
 
   @media all and (min-width:991px) {  
-    .dropdown:after{
+    .header-overlay:after{
         content: ''; 
         top:93px;
         right: 0;
@@ -3149,11 +3149,11 @@ position: fixed;
         background-color:  rgba(55,172,251,.8);
         pointer-events: none;
     }
-    .dropdown.show .nav-link{
+    .header-overlay.show .nav-link{
       position:relative;
       z-index:12;
     }
-    .dropdown.show:after{
+    .header-overlay.show:after{
       z-index:10; opacity:1; 
       visibility:visible;
       position: fixed;
