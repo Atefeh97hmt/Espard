@@ -16,7 +16,6 @@ $(document).ready(function () {
 		autoplay: true,
 		autoplaySpeed: 3000,
 		speed: 900,
-			  
 		nextArrow: '<i class="fa fa-arrow-circle-right"></i>',
 		prevArrow: '<i class="fa fa-arrow-circle-left"></i>',
 		responsive: [
@@ -51,8 +50,7 @@ $(document).ready(function () {
 			speed: 900,
 	arrows:false
 	  });
-
-
+	
 
   });
 
@@ -60,6 +58,10 @@ $(document).ready(function () {
 
   
 
+//   document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.sidenav');
+//     var instances = M.Sidenav.init(elems, options);
+//   });
 
 //   var modal = document.getElementById('navbarSupportedContent');
 //   // When the user clicks anywhere outside of the modal, close it

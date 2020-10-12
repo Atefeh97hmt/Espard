@@ -239,15 +239,6 @@ font-size: 2em;
 
 
 
-.fa-mobile{
-position: absolute;
-top:10px;
-    font-size: 34px;
-    right:48px!important;
-    color: #999;
-}
-
-
 .services_col {
     padding: 0px 5px;
     margin-bottom: 10px;
@@ -1741,7 +1732,7 @@ width: 100%;
     background-color: #f3f3f3;
 }
 .list-group-item{
-    background-color: #f3f3f3;
+    background-color: #e6e6e6;
     border-radius: 5px;
 }
 
@@ -3274,4 +3265,138 @@ background-color: #158fe1;
         right:45% ;
     }}
 
+
+
+
+    .fa-mobile{
+        position: absolute;
+        top:10px;
+            font-size: 34px;
+            right:48px!important;
+            color: #999;
+        }
+
     
+    @media screen and (max-width:991px) {
+    ::placeholder{
+
+        font-size:14px;
+        color: #9a9a9a;
+    }
+    }
+        
+@media screen and (max-width:991px) {
+    .fa-mobile{
+        position: absolute;
+        top:10px;
+            font-size: 34px;
+            right:30px!important;
+            color: #999;
+        }
+    }
+
+
+
+    @media screen and (max-width:991px) {
+    .search .btn-back-color {
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        background-color: rgba(35, 157, 240, .9);
+        padding: 8px 12px 8px 12px;
+        color: white;
+        border-radius: 5px;
+    }}
+    
+
+
+
+
+    @media screen and (max-width:767px) {
+        ::placeholder{
+    
+            font-size:15px;
+            color: #9a9a9a;
+        }
+        }
+            
+    @media screen and (max-width:767px) {
+        .fa-mobile{
+            position: absolute;
+            top:10px;
+                font-size: 34px;
+                right:48px!important;
+                color: #999;
+            }
+        }
+
+
+
+        @media screen and (max-width:767px) {
+            .search .btn-back-color {
+                position: absolute;
+                top: 5px;
+                left: 45px;
+                background-color: rgba(35, 157, 240, .9);
+                padding: 8px 12px 8px 12px;
+                color: white;
+                border-radius: 5px;
+            }}
+
+
+        @media screen and (max-width:515px) {
+            ::placeholder{
+        
+                font-size:12px;
+                color: #9a9a9a;
+            }
+            }
+                
+        @media screen and (max-width:515px) {
+            .fa-mobile{
+                position: absolute;
+                top:10px;
+                    font-size: 34px;
+                    right:40px!important;
+                    color: #999;
+                }
+            }
+
+
+            @media screen and (max-width:515px) {
+                .search .btn-back-color {
+                    position: absolute;
+                    top: 5px;
+                    left: 45px;
+                    background-color: rgba(35, 157, 240, .9);
+                    padding: 8px 12px 8px 12px;
+                    color: white;
+                    border-radius: 5px;
+                }}
+            @media screen and (max-width:350px) {
+                ::placeholder{
+            
+                    font-size:12px;
+                    color: #9a9a9a;
+                }
+                }
+                    
+            @media screen and (max-width:350px) {
+                .fa-mobile{
+                    position: absolute;
+                    top:10px;
+                        font-size: 34px;
+                        right:30px!important;
+                        color: #999;
+                    }
+                }
+                @media screen and (max-width:350px) {
+                    .search .btn-back-color {
+                        position: absolute;
+                        top: 5px;
+                        left: 30px;
+                        background-color: rgba(35, 157, 240, .9);
+                        padding: 8px 12px 8px 12px;
+                        color: white;
+                        border-radius: 5px;
+                    }}
