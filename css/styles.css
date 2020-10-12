@@ -3064,19 +3064,26 @@ margin-right: 5%;
 
 
 
-    .badge {
-        display: inline-block;
-        position: absolute;
-        left:5%;
-      top: 35%;
+ 
+    .mobile-popular-orange-part {
+        background-color: #fdc827;
+        padding: 1px 0px 1px 0px;
+        border-radius:3px;
+        color: white;
+        font-size: 8px;
+        margin-left: 8px;
+        width: 50%;
+        text-align: center;
     }
-
     .mobile-popular-blue-part {
         background-color: rgb(46, 158, 239);
-        padding: 5px;
-        border-radius: 5px;
+        padding: 1px 0px 1px 0px;
+        border-radius:3px;
         color: white;
-        font-size: 10px;
+        font-size: 8px;
+        margin-left: 8px;
+        width: 50%;
+        text-align: center;
     }
 
 
@@ -3195,9 +3202,31 @@ position: fixed;
   }
 
 
-.s{
-    background-color: red;
+.sidenav-submenu{
+    background-color: white;
 }
-.s a{
+.sidenav-submenu a{
     margin-right: 10%;
+    color: #585858;
+    font-size: 14px;
 }
+
+.mobile-menu-flex-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidenav-submenu a:hover{
+color: #158fe1;
+}
+
+
+
+
+/* 
+.nav-link[data-toggle].collapsed:before {
+    content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):before {
+    content: " ▴"; */
