@@ -3112,7 +3112,7 @@ margin-right: 5%;
 
 .sidenav {
 height: 100%;
-width: 0;
+width: 0%;
 position: fixed; 
 /* top: 4%; */
 
@@ -3138,10 +3138,10 @@ position: fixed;
 
 /***************************** menu style ********************/
 
-  @media all and (min-width:991px) {  
+  @media all and (min-width:200px) {  
     .dropdown:after{
         content: ''; 
-        top: 0;
+        top: 14.1%;
         right: 0;
         bottom: 0;
         left: 0;
@@ -3161,3 +3161,5 @@ position: fixed;
       position: fixed;
     }
   }
+
+
