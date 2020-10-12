@@ -3162,7 +3162,7 @@ position: fixed;
 
 
   @media all and (max-width:990px) {  
-    .navbar-collapse:after{
+    .mobile-menu-overlay:after{
         content: ''; 
         top:0;
         right: 0;
@@ -3174,11 +3174,11 @@ position: fixed;
         background-color:  rgba(61, 63, 65, 0.8);
         pointer-events: none;
     }
-    .navbar-collapse.show .sidenav{
+    .mobile-menu-overlay.show .sidenav{
       /* position:relative; */
       z-index:12;
     }
-    .navbar-collapse.show:after{
+    .mobile-menu-overlay.show:after{
       z-index:10; opacity:1; 
       visibility:visible;
       position: fixed;
