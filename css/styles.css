@@ -92,27 +92,7 @@ right: 80px;
     align-items: center;
 }
 
-/* .header-right-menu-title {
-    font-size: 35px;
-    text-align: center;
-    color: grey;
-    margin-top: 20px;
-} */
 
-/* .header-right-menu-subtitle {
-    font-size: 15px;
-    text-align: center;
-    color: grey;
-} */
-
-/* .right-menu-background{
-    background-color: #bbb;
-} */
-/* .header-li-menu-image img {
-    width: 200px;
-    background-color: #33abfc;
-    
-} */
 
 .section_title {
     color: rgb(46, 158, 239);
@@ -3321,5 +3301,13 @@ border: none;
     content: " ▾";
 }
 .nav-link[data-toggle]:not(.collapsed):before {
-    content: " ▴"; */
+    content: " ▴"; }
 
+ */
+
+
+
+ .list-group-item-action:active {
+    color: white;
+    background-color: #239df0;
+}
