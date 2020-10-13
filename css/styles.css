@@ -12,12 +12,15 @@ body a{
     text-decoration: none!important;
 }
 
-.left-menu-btn{
+.left-menu-inside-btn{
     margin-right: 20px;
 }
+
  .menu-part-ul-design{
-    min-width: 245px;
-margin-bottom: 60px;
+min-width: 245px;
+position: absolute;
+top: 64px;
+/* margin-bottom: 60px; */
 }
 
 
@@ -36,14 +39,14 @@ margin-bottom: 60px;
 .header-menu-icons-hover:hover{
 color: #fdc827;
 }
-.header-menu-image-back {
+.header-left-menu-image-back {
     background-color: rgb(241, 240, 240);
     width: 115.5%;
     position: absolute;
     min-height: 300px;
 }
 
-.new-part {
+.new-part-badge {
     background-color: tomato;
     padding: 2px 8px 2px 8px;
     border-radius: 3px;
@@ -51,12 +54,13 @@ color: #fdc827;
     font-size: 10px;
    
 }
-.union-cooperation-btn{
+.union-cooperation-badge{
     border: 1px solid ;
     border-radius: 1px;
     font-size: 10px;
 padding: 0px 1px 0px 1px;
 }
+
 .left-menu-under-menu-link {
     background-color: rgb(243, 240, 240);
     position: absolute;
@@ -70,39 +74,40 @@ padding: 0px 1px 0px 1px;
     margin-left: 5px;
 }
 
-.popular-blue-part {
+.popular-blue-part-badge {
     background-color: rgb(46, 158, 239);
     padding: 2px 8px 2px 8px;
     border-radius: 3px;
     color: white;
     font-size: 10px;
 }
-.menu-side-btn-flex{
+.menu-side-badge-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-right-menu-title {
+/* .header-right-menu-title {
     font-size: 35px;
     text-align: center;
     color: grey;
-    margin-top: 20%;
-}
+    margin-top: 20px;
+} */
 
-.header-right-menu-subtitle {
+/* .header-right-menu-subtitle {
     font-size: 15px;
     text-align: center;
     color: grey;
-}
-.right-menu-background{
+} */
+
+/* .right-menu-background{
     background-color: #bbb;
-}
-.header-li-menu-image img {
+} */
+/* .header-li-menu-image img {
     width: 200px;
     background-color: #33abfc;
     
-}
+} */
 
 .section_title {
     color: rgb(46, 158, 239);
@@ -755,16 +760,12 @@ font-size: 2em;
 }
 
 
-
 .header-left-div {
     position: absolute;
     left:165px
 }
 
-.header-right-ui {
-    position: absolute;
-    right: 110px;
-}
+
 
 .nav-style {
     padding-top: 50px;
@@ -802,11 +803,11 @@ font-size: 2em;
     color: white;
     background-color: rgba(35, 157, 240, .9)
 }
-
+/* 
 .form-part-style {
     margin-top: 15px;
     margin-right: 32px;
-}
+} */
 
 
 .featured-box-buildings {
@@ -995,7 +996,7 @@ font-size: 2em;
 .header-menu-image-title {
     color: #666;
     font-size: 14px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -1765,9 +1766,8 @@ width: 100%;
     width: 220px;
     height: 350px;
     top:120px;
-    left: 50%;
+    left: 15%;
     z-index: 3;
-    margin-left: -110px;
     /* -ms-transform: translateY(105%);
     transform: translateY(105%);
     transition: transform 1s cubic-bezier(.86,0,.07,1) .3s;
@@ -3087,7 +3087,7 @@ margin-right: 5%;
         width: 50%;
         text-align: center;
     }
-    .mobile-popular-blue-part {
+    .mobile-popular-blue-part-badge {
         background-color: rgb(46, 158, 239);
         padding: 1px 0px 1px 0px;
         border-radius:3px;
