@@ -1296,8 +1296,18 @@ font-size: 2em;
     background-image: url(../image/background_3.png);
     background-color: rgb(61, 175, 250);
     background-size: cover;
-    min-height: 680px;
+    min-height: 650px;
 }
+
+@media screen and (max-width:767px) {
+    .slider-part-background {
+        min-height: 550px;
+}
+}
+@media screen and (max-width:320px) {
+    .slider-part-background {
+        min-height: 600px;
+}}
 
 
 .sign {
@@ -3219,17 +3229,42 @@ background-color: #158fe1;
   
 @media screen and (max-width:991px) {
     .fa-arrow-circle-left {
-        top: 122%;
+        top: 120%;
         left: 45%;
     }}
       
 @media screen and (max-width:991px) {
     .fa-arrow-circle-right {
-        top: 122%;
+        top: 120%;
         right:45% ;
     }}
 
 
+    @media screen and (max-width:767px) {
+        .fa-arrow-circle-left {
+            top: 120%;
+            left: 43%;
+        }}
+          
+    @media screen and (max-width:767px) {
+        .fa-arrow-circle-right {
+            top: 120%;
+            right:43% ;
+        }}
+    
+
+
+        @media screen and (max-width:455px) {
+            .fa-arrow-circle-left {
+                top: 120%;
+                left: 41%;
+            }}
+              
+        @media screen and (max-width:455px) {
+            .fa-arrow-circle-right {
+                top: 120%;
+                right:41% ;
+            }}
 
 
     .fa-mobile{
