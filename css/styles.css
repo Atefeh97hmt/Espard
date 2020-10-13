@@ -139,6 +139,11 @@ font-size: 2em;
 }
 
 @media screen and (max-width:760px) {
+    .header-title-part h2 {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width:760px) {
     .section_title_black {
         color: black;
         text-align: center;
@@ -152,6 +157,13 @@ font-size: 2em;
         margin-top: 5px;
         font-size: 1em;
         text-align: center
+    }
+}
+@media screen and (max-width:760px) {
+    .header-title-sub span{
+      
+        font-size: 24px;
+       
     }
 }
 
@@ -1319,7 +1331,7 @@ border-right: 30px solid transparent;
 .user h4 {
     font-size: 15px;
 }
-
+/* 
 .carousel-control-prev {
     position: absolute;
     top: 135%;
@@ -1335,7 +1347,7 @@ border-right: 30px solid transparent;
     position: absolute;
     top: 135%;
     right: 42%;
-}
+} */
 
 .padding-top-slider {
     padding-top: 10px
@@ -1345,7 +1357,7 @@ border-right: 30px solid transparent;
 .app-part-slider-content-width {
     width: 155px
 }
-
+/* 
 .fa-chevron-circle-blue1 {
     color: white;
     position: absolute;
@@ -1376,7 +1388,7 @@ border-right: 30px solid transparent;
     border-radius: 50%;
     position: absolute;
     left: 166px;
-}
+} */
 
 
 
@@ -2381,7 +2393,7 @@ bottom: 20%;
       }
 
 
-      @media screen and (min-width:1000px) {
+      @media screen and (min-width:850px) {
       .top-to-service-section-btn {
         background-color:#fdc827;
         width:40px;
@@ -3204,7 +3216,6 @@ background-color: #158fe1;
 }
 
 
-
   
 @media screen and (max-width:991px) {
     .fa-arrow-circle-left {
@@ -3326,7 +3337,7 @@ background-color: #158fe1;
                     color: white;
                     border-radius: 5px;
                 }}
-            @media screen and (max-width:350px) {
+            @media screen and (max-width:375px) {
                 ::placeholder{
             
                     font-size:12px;
@@ -3334,7 +3345,7 @@ background-color: #158fe1;
                 }
                 }
                     
-            @media screen and (max-width:350px) {
+            @media screen and (max-width:375px) {
                 .fa-mobile{
                     position: absolute;
                     top:10px;
@@ -3343,7 +3354,7 @@ background-color: #158fe1;
                         color: #999;
                     }
                 }
-                @media screen and (max-width:350px) {
+                @media screen and (max-width:375px) {
                     .search .btn-back-color {
                         position: absolute;
                         top: 5px;
