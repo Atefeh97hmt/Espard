@@ -68,50 +68,26 @@ $(document).ready(function () {
 			speed: 900,
 	arrows:false
 	  });
-	
-
-
-
-// $("#menu-close").click(function(e) {
-//    e.stopPropagation();
-//    $("#sidebar-wrapper").toggleClass("active");
-// });
-// $("#menu-toggle").click(function(e) {
-//    e.stopPropagation();
-//    $("#sidebar-wrapper").toggleClass("active");
-// });
-// $(document).click(function(){
-//    if($("#sidebar-wrapper").hasClass('active')){
-//       $("#sidebar-wrapper").removeClass("active");
-//    }
-// });
-	
-	
-	
-
-
 
   });
 
 
 
+  $('.navbar-toggler').click(function(e){
+    e.stopPropagation();
+	 $('.navbar-collapse').addClass('show');
+  });
+
+  $(document).click(function(e) 
+  {
+	  var container = $(".navbar-collapse");
   
+	  // if the target of the click isn't the container nor a descendant of the container
+	  if (!container.is(e.target) && container.has(e.target).length === 0) 
+	  {
+		  container.removeClass('show');
+	  }
+  });
 
-
-
-
-
-//   document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.sidenav');
-//     var instances = M.Sidenav.init(elems, options);
-//   });
-
-//   var modal = document.getElementById('navbarSupportedContent');
-//   // When the user clicks anywhere outside of the modal, close it
-//   window.onclick = function(event) {
-// 	if (event.target == modal) {
-// 	  modal.style.display = "none";
-// 	}
-//   }
 
 
