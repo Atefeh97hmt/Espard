@@ -41,7 +41,7 @@ color: #fdc827;
 }
 .header-left-menu-image-back {
     background-color: rgb(241, 240, 240);
-    width: 115.5%;
+    width: 115.6%;
     position: absolute;
     min-height: 300px;
 }
@@ -61,19 +61,24 @@ color: #fdc827;
 padding: 0px 1px 0px 1px;
 }
 
-.left-menu-under-menu-link {
+.left-menu-bottom-link {
     background-color: rgb(243, 240, 240);
     position: absolute;
-    top: 410px !important;
-    right: 8px;
+    top: 410px ;
+right: 80px;
 }
 
 .blue-fa-arrow {
     color: rgb(46, 158, 239);
-    font-size: 20px!important;
+    font-size: 13px!important;
     margin-left: 5px;
+    border: 2px solid #27a0f2;
+    border-radius: 50%;
+    padding: 2px;
 }
-
+.link a{
+    font-size: 14px;
+}
 .popular-blue-part-badge {
     background-color: rgb(46, 158, 239);
     padding: 2px 8px 2px 8px;
@@ -237,7 +242,7 @@ font-size: 2em;
 .section-title-black-pro {
     color: black;
     text-align: center!important;
-    font-size: 24px;
+    font-size: 28px;
 }
 }
 
@@ -245,7 +250,7 @@ font-size: 2em;
     .section-title-black-pro {
         color: black;
         text-align: center!important;
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
@@ -913,7 +918,7 @@ font-size: 2em;
     font-size: 14px;
 }
 .txt-left-menu{
-  min-width: 240px;
+  min-width: 245px;
    white-space: normal;
     text-align: justify;
     color: #9a9a9a;
@@ -929,15 +934,6 @@ font-size: 2em;
    
 }
 
-
-@media screen and (max-width:1200px) {
-    .first-dropdown-menu-width{
-      
-        position: absolute;
-        right: 30%; 
-        width: 800%;
-        height: 480px;
-}}
 
 .second-dropdown-menu-width {
     position: absolute;
@@ -956,20 +952,72 @@ font-size: 2em;
 
  @media screen and (max-width:1200px) {
     .dropdown-menu-left-width{
-       width: 690px;
+        position: absolute;
+        left:0%;
+        width: 400%;
+        height: 480px
  
 }}
 
+@media screen and (max-width:1100px) {
+    .dropdown-menu-left-width{
+        position: absolute;
+        left:-45%;
+        width: 400%;
+        height: 480px
+ 
+}}
+
+@media screen and (max-width:1200px) {
+    .first-dropdown-menu-width {
+        position: absolute;
+        right: -50%; 
+        width: 800%;
+        height: 480px;
+       
+    }}
+
+@media screen and (max-width:1100px) {
+    .first-dropdown-menu-width {
+        position: absolute;
+        right: -105%; 
+        width: 800%;
+        height: 480px;
+       
+    }}
+
+
+@media screen and (max-width:1200px) {
+    .second-dropdown-menu-width {
+        position: absolute;
+      right: -110px;
+        width: 800%;
+        height: 480px;
+       
+    }}
+
+@media screen and (max-width:1100px) {
+    .second-dropdown-menu-width {
+        position: absolute;
+        right: -170%; 
+        width: 800%;
+        height: 480px;
+       
+    }}
+
+
+
+/* 
  @media screen and (max-width:1200px) {
     .first-dropdown-menu-width{
-       width: 690px;
+       width:800px;
  
 }}  
 @media screen and (max-width:1200px) {
     .second-dropdown-menu-width{
-       width: 690px;
+       width: 800px;
  
-}}   
+}}    */
 .left-menu-margin {
     display: flex;
     flex-direction: column;
@@ -2205,7 +2253,7 @@ position: absolute;
     border: 2px solid transparent;
     color: #333;
     border-radius: 30px;
-    width: 200px;
+    width: 190px;
   
     
 }
@@ -2228,7 +2276,7 @@ position: absolute;
     border: 2px solid transparent;
     color:white ;
     border-radius: 30px;
-    width: 200px;
+    width: 190px;
 }
 .btn--gray:hover{
   color: white;
@@ -2278,7 +2326,7 @@ position: absolute;
     padding: 0;
 }
 
-
+/* 
 @media screen and (max-width:1200px) {
     .all-btn-header{
        width:140px;
@@ -2402,10 +2450,10 @@ text-align: center;
 }}
 
 @media screen and (max-width:1200px) {
-.left-menu-under-menu-link {
-    top: 400px !important;
-    right: -40px;
-}}
+.left-menu-bottom-link {
+    top: 400px ;
+    right: -25px;
+}} */
 
 .angle-left-blue{
 
@@ -2448,8 +2496,9 @@ bottom: 20%;
         z-index: 99;
         display: flex;
         align-items: flex-end;
-
+        
     } 
+    
     @media screen and (min-width:768px) {
     .section-white-circle::after{
      bottom:-8px;

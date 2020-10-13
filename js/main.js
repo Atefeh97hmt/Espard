@@ -73,6 +73,9 @@ $(document).ready(function () {
 
 
 
+
+
+
   $('.navbar-toggler').click(function(e){
     e.stopPropagation();
 	 $('.navbar-collapse').addClass('show');
