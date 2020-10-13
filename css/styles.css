@@ -286,7 +286,7 @@ font-size: 2em;
 
 .services_col {
     padding: 0px 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .services_col a {
@@ -739,6 +739,7 @@ font-size: 2em;
     height: 100%;
     opacity: 0.9;
     visibility: visible;
+  
    
 }
 
@@ -1478,7 +1479,12 @@ border-right: 30px solid transparent;
     -ms-flex-pack: center;
     justify-content: center;
     text-align: right;
-    margin-top: 20px;
+    margin-top: 20px; 
+}
+
+.card-c-margin-top{
+  margin-top: 30px;
+  
 }
 .menu-collapsed {
 font-size: 13px;
@@ -2587,7 +2593,7 @@ text-align: right;
  }                                                                   
 
  .mobile-content-p {
- 
+ direction: rtl;
     text-align: justify;
     font-size: 12px;
     color: gray;
@@ -2650,7 +2656,7 @@ width: 50%;
 
     @media screen and (max-width:1199px) {
         .mobile-content-p {
- 
+            direction: rtl;
             text-align: justify;
             font-size: 7px;
             color: gray;
@@ -2688,7 +2694,7 @@ width: 50%;
 
     @media screen and (max-width:991px) {
         .mobile-content-p {
- 
+            direction: rtl;
             text-align: justify;
             font-size: 1px;
             color: gray;
@@ -2739,7 +2745,7 @@ width: 50%;
 
     @media screen and (max-width:767px) {
         .mobile-content-p {
- 
+            direction: rtl;
             text-align: justify;
             font-size: 12px;
             color: gray;
@@ -2792,7 +2798,7 @@ margin-right: 0;
 
     @media screen and (max-width:515px) {
         .mobile-content-p {
- 
+            direction: rtl;
             text-align: justify;
             font-size: 10px;
             color: gray;
@@ -2847,7 +2853,7 @@ margin-right: 0;
 
     @media screen and (max-width:460px) {
         .mobile-content-p {
- 
+            direction: rtl;
             text-align: justify;
             font-size: 8px;
             color: gray;
@@ -2906,7 +2912,7 @@ margin-right: 5%;
     
         @media screen and (max-width:405px) {
             .mobile-content-p {
-     
+                direction: rtl;
                 text-align: justify;
                 font-size: 5px;
                 color: gray;
@@ -2962,7 +2968,7 @@ margin-right: 5%;
     
         @media screen and (max-width:375px) {
             .mobile-content-p {
-     
+                direction: rtl;
                 text-align: justify;
                 font-size: 1px;
                 color: gray;
@@ -3034,7 +3040,7 @@ margin-right: 5%;
     
         @media screen and (max-width:320px) {
             .mobile-content-p {
-     
+                direction: rtl;
                 text-align: justify;
                 font-size: 0.5%;
                 color: gray;
