@@ -25,6 +25,9 @@ $(document).ready(function () {
 				arrows: true,
 				centerMode: true,
 				centerPadding: '10px',
+				autoplay: true,
+				autoplaySpeed: 3000,
+				speed: 900,
 				slidesToShow: 2
 			  }
 			},
@@ -34,9 +37,24 @@ $(document).ready(function () {
 				arrows: true,
 				centerMode: true,
 				centerPadding: '10px',
+				autoplay: true,
+				autoplaySpeed: 3000,
+				speed: 900,
 				slidesToShow: 1
 			  }
-			}
+			},
+			{
+				breakpoint: 350,
+				settings: {
+				  arrows: true,
+				  centerMode: true,
+				  centerPadding: '10px',
+				  autoplay: true,
+				  autoplaySpeed: 3000,
+				  speed: 900,
+				  slidesToShow: 1
+				}
+			  }
 		  ]
 		  
 	});
