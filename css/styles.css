@@ -3053,24 +3053,21 @@ margin-right: 5%;
 
 
 
- 
-/*     
+  
  .list-group-item-action:active {
     color: white;
     background-color: #239df0;
+} 
+
+
+
+/* 
+.list-group a .menu-click-back.selected {
+    color: white;
+    background-color: #239df0;;
+}
+
+.list-group .menu-click-back:active {
+    color: white;
+    background-color: #239df0;;
 } */
-
-
-
-
-.sidebar-expanded .menu-click-back.selected {
-    background: #239df0;
-    color:#FFFFFF;
-}
-
-
-
-.sidebar-expanded .menu-click-back:active {
-    background: #239df0;
-    color:white;
-}

@@ -70,22 +70,18 @@ $(document).ready(function () {
 	  });
 
 
-	  
-		$('.sidebar-expanded .menu-click-back ').click(function (ev) {
-			$('.sidebar-expanded .menu-click-back ').removeClass('selected');
-			$(ev.currentTarget).parent('.menu-click-back').addClass('selected');
-		});
+	//   $('.list-group a .menu-click-back').click(function (ev) {
+	// 	$('.list-group .menu-click-back').removeClass('selected');
+	// 	$(ev.currentTarget).parent('a').addClass('selected');
+	// });
 	
-
+	 
 	});
+
+	
 	
 
  
-
-
-
-
-
 
   $('.navbar-toggler').click(function(e){
     e.stopPropagation();
@@ -104,7 +100,7 @@ $(document).ready(function () {
 
 
 
-
+ 
 
 
 
