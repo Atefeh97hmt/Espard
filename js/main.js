@@ -69,7 +69,18 @@ $(document).ready(function () {
 	arrows:false
 	  });
 
-  });
+
+	  
+		$('.sidebar-expanded .menu-click-back ').click(function (ev) {
+			$('.sidebar-expanded .menu-click-back ').removeClass('selected');
+			$(ev.currentTarget).parent('.menu-click-back').addClass('selected');
+		});
+	
+
+	});
+	
+
+ 
 
 
 
@@ -93,3 +104,11 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+//   $('#menu ul li a').click(function (ev) {
+// 	$('#menu ul li').removeClass('selected');
+// 	$(ev.currentTarget).parent('li').addClass('selected');
+// });
